@@ -13,7 +13,7 @@ export default defineNuxtConfig({
 		},
 	},
 	modules: ['@vueuse/nuxt', '@nuxt/image', '@nuxt/content'],
-	ssr: false,
+	ssr: true,
 	nitro: {
 		preset: 'github_pages',
 	},
