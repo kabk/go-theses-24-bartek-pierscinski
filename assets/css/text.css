@@ -1,0 +1,145 @@
+@font-face {
+	font-family: 'TNR';
+	src: url('/assets/TNR.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'TNR-Italic';
+	src: url('/assets/TNR-Italic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Unica-M';
+	src: url('/assets/unica/Unica77LL-Medium.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Univers';
+	src: url('/assets/univers/UniversLTStd-BoldCn.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'F';
+	src: url('/assets/ITCFranklinGothicStd-DmCd.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Office-Medium';
+	src: url('/assets/office/otf/OfficeCodeProD-Medium.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Executive';
+	src: url('/assets/executive/Executive-55Regular.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'NHGMedium';
+	src: url('/assets/HaasGrotDisp-65Medium.otf') format('opentype');
+}
+@font-face {
+	font-family: 'G';
+	src: url('/assets/G-B.otf') format('opentype');
+}
+@font-face {
+	font-family: 'R';
+	src: url('/assets/Replica.otf') format('opentype');
+}
+
+:root {
+	--type-xs: calc(var(--type-s) * 0.7);
+	--type-s: 15.5px;
+	--type-m: 25px;
+	--type-l: max(3.1vw, 35px);
+	--type-xl: 8vw;
+}
+
+@media screen and (max-width: 600px) {
+	:root {
+		--type-s: 13px;
+		--type-m: 4.5vw;
+		--type-l: 6.5vw;
+		--type-xl: 9vw;
+	}
+}
+
+html,
+body {
+	font-family: 'Unica-M', sans-serif;
+	font-size: var(--type-s);
+	letter-spacing: -0.008rem;
+	line-height: 109%;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	@media (hover: hover) {
+		&:hover {
+			color: inherit;
+			& > * {
+				color: inherit;
+			}
+		}
+	}
+}
+
+.helvetica {
+	font-family: 'NHGMedium';
+}
+
+.univers {
+	font-family: 'F';
+	line-height: 90% !important;
+	/* line-height: initial !important; */
+	text-transform: uppercase;
+	padding-top: 0.4em;
+}
+
+.times-italic {
+	font-family: 'TNR-Italic';
+	line-height: 97%;
+
+	&:not(.-type-m) {
+		line-height: 110%;
+	}
+}
+
+.-type-m {
+	font-size: var(--type-m);
+	line-height: 98%;
+	letter-spacing: -0.01em;
+	hyphens: auto;
+}
+
+.-type-l {
+	font-size: var(--type-l);
+	line-height: 92%;
+	letter-spacing: -0.02em;
+	hyphens: auto;
+
+	&:not(.times, .times-italic) {
+		&::before {
+			content: '';
+			margin-bottom: -0.08em;
+			display: table;
+		}
+
+		&::after {
+			content: '';
+			margin-top: -0.1303em;
+			display: table;
+		}
+	}
+
+	&.times {
+		line-height: 102%;
+	}
+}
+
+.-type-xl {
+	font-size: var(--type-xl);
+	line-height: 85%;
+	letter-spacing: -0.02em;
+	hyphens: auto;
+}

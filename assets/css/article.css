@@ -1,0 +1,101 @@
+.page {
+	& > .close {
+		display: inline-block;
+		width: 100vw;
+		text-align: center;
+		margin-top: 0.6em;
+		font-family: 'Office-Medium';
+		color: var(--color);
+		font-size: var(--type-xs);
+	}
+	& > header {
+		& > div {
+			max-width: calc((100vw - 4 * var(--space-m)) / 4 * 2);
+		}
+		margin: 0 var(--space-m);
+		padding-top: 0.4em;
+		margin-bottom: 10vw;
+		text-wrap: balance;
+	}
+
+	& > main {
+		border-top: var(--color) 2px solid;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		padding: 0 var(--space-m);
+		gap: var(--space-m);
+		& > .content {
+			grid-column: 1/-2;
+			& > p {
+				max-width: calc((100vw - 4 * var(--space-m)) / 4 * 2);
+				margin-left: calc((100vw - 4 * var(--space-m)) / 4 * 1);
+				margin-bottom: 0.5em;
+			}
+
+			& > figure {
+				/* border-left: darkgrey 10px solid; */
+				/* border-right: var(--color) 1px solid; */
+				margin-bottom: 1em;
+				max-width: calc((100vw - 4 * var(--space-m)) / 4 * 3);
+				padding-right: calc((100vw - 4 * var(--space-m)) / 4 * 1);
+				background-color: var(--color);
+				& > figcaption {
+					font-family: 'Office-Medium';
+					font-size: var(--type-xs);
+					background-color: black;
+					max-width: calc((100vw - 4 * var(--space-m)) / 4 * 1);
+					text-transform: uppercase;
+					&::before {
+						content: '[FIG] ';
+					}
+				}
+			}
+
+			& > blockquote {
+				font-family: 'R';
+				max-width: calc((100vw - 4 * var(--space-m)) / 4 * 2);
+				margin-left: calc((100vw - 4 * var(--space-m)) / 4 * 1);
+				padding-left: var(--space-m);
+				border-left: white 2px solid;
+				color: var(--color);
+				font-size: 120%;
+				line-height: 100%;
+				margin-top: 0.5em;
+				margin-bottom: 1em;
+				& > .caption {
+					font-family: 'Office-Medium';
+					color: white;
+					font-size: var(--type-xs);
+					margin-top: var(--space-m);
+				}
+			}
+		}
+
+		& > .refs {
+			grid-column: -2/-1;
+			display: flex;
+			flex-direction: column;
+			gap: var(--space-m);
+			& > ref {
+				font-size: var(--type-xs);
+				font-family: 'Office-Medium';
+				text-transform: uppercase;
+				& > .index {
+					background-color: var(--color);
+					color: black;
+				}
+
+				& > .content {
+					padding: 2px;
+					border-left: solid 1px white;
+					border-right: solid 1px white;
+					border-bottom: solid 1px white;
+					& > a {
+						color: var(--color);
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+	}
+}
