@@ -1,44 +1,44 @@
 <template>
 	<main>
 		<div class="col">
-			<NuxtLink
+			<!-- <NuxtLink
 				v-for="c in getEls(chapters.arr, 0, 3)"
 				:to="c.path"
 				:class="[c.type]"
 			>
 				<div class="title">{{ c.title }}</div>
 				<div class="index">{{ c.index }}</div>
-			</NuxtLink>
+			</NuxtLink> -->
 		</div>
 		<div class="col">
-			<NuxtLink
+			<!-- <NuxtLink
 				v-for="c in getEls(chapters.arr, 4, 6)"
 				:to="c.path"
 				:class="[c.type]"
 			>
 				<div class="title">{{ c.title }}</div>
 				<div class="index">{{ c.index }}</div>
-			</NuxtLink>
+			</NuxtLink> -->
 		</div>
 		<div class="col">
-			<NuxtLink
+			<!-- <NuxtLink
 				v-for="c in getEls(chapters.arr, 6, 8)"
 				:to="c.path"
 				:class="[c.type]"
 			>
 				<div class="title">{{ c.title }}</div>
 				<div class="index">{{ c.index }}</div>
-			</NuxtLink>
+			</NuxtLink> -->
 		</div>
 		<div class="col">
-			<NuxtLink
+			<!-- <NuxtLink
 				v-for="c in getEls(chapters.arr, 0, 3)"
 				:to="c.path"
 				:class="[c.type]"
 			>
 				<div class="title">{{ c.title }}</div>
 				<div class="index">{{ c.index }}</div>
-			</NuxtLink>
+			</NuxtLink> -->
 		</div>
 	</main>
 </template>
