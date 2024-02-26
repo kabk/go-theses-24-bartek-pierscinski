@@ -32,9 +32,8 @@ jobs:
     # Deploy to the github_pages environment
     environment:
       name: github_pages
-      url: https://kabk.github.io/go-theses-24-bartek-pierscinski/
+      url: ${{ steps.deployment.outputs.page_url }}
       # Specify runner + deployment step
-      # url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
