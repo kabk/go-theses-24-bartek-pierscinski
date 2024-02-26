@@ -3,6 +3,7 @@ export default defineNuxtConfig({
 	devtools: { enabled: false },
 	css: ['~/assets/css/index.css'],
 	app: {
+		baseURL: '/go-theses-24-bartek-pierscinski/',
 		pageTransition: {
 			name: 'pagetransition',
 			mode: 'out-in',
