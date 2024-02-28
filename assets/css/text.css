@@ -47,10 +47,10 @@
 }
 
 :root {
-	--type-xs: calc(var(--type-s) * 0.7);
-	--type-s: 15.5px;
+	--type-xs: calc(var(--type-s) * 0.65);
+	--type-s: 17px;
 	--type-m: 25px;
-	--type-l: max(3.1vw, 35px);
+	--type-l: max(5vw, 35px);
 	--type-xl: 8vw;
 }
 
@@ -90,7 +90,7 @@ a {
 
 .univers {
 	font-family: 'F';
-	line-height: 90% !important;
+	line-height: 80% !important;
 	/* line-height: initial !important; */
 	text-transform: uppercase;
 	padding-top: 0.4em;
@@ -114,7 +114,7 @@ a {
 
 .-type-l {
 	font-size: var(--type-l);
-	line-height: 92%;
+	line-height: 87%;
 	letter-spacing: -0.02em;
 	hyphens: auto;
 

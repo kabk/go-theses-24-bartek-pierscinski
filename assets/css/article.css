@@ -11,12 +11,36 @@
 	& > header {
 		color: var(--color4);
 		& > div {
-			max-width: calc((100vw - 4 * var(--space-m)) / 4 * 2);
+			max-width: calc((100vw - 4 * var(--space-m)) / 4 * 3);
 		}
 		margin: 0 var(--space-m);
-		padding-top: 0.4em;
-		margin-bottom: 10vw;
+		/* padding-top: 0.4em; */
+		margin-bottom: 7vw;
 		text-wrap: balance;
+		width: max-content;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 3vw;
+		padding-left: 5px;
+		& > div {
+			padding-top: 0.2em !important;
+		}
+
+		&:hover {
+			outline: var(--color3) 1px solid;
+			& > .questions {
+				opacity: 1;
+			}
+		}
+		& > .questions {
+			font-family: 'Office-Medium';
+			color: var(--color3);
+			max-width: 60ch;
+			text-transform: uppercase;
+			opacity: 0;
+			font-size: 80%;
+		}
 	}
 
 	& > main {
@@ -33,6 +57,7 @@
 				margin-bottom: 0.5em;
 				&:hover {
 					outline: var(--color2) solid 1px;
+
 					&:before {
 						display: block;
 					}
@@ -54,12 +79,14 @@
 					text-transform: uppercase;
 					padding: 1px;
 					outline: var(--color2) solid 1px;
-					max-width: 30ch;
+					max-width: 50ch;
 				}
 
 				& > .word {
 					position: relative;
 					&:hover {
+						background-color: var(--color4);
+						color: black;
 						outline: var(--color3) 1px solid;
 						&::after {
 							display: block;

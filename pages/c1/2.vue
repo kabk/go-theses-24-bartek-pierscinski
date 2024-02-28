@@ -1,10 +1,16 @@
 <template>
 	<div class="page">
 		<NuxtLink to="/" class="close">CLOSE</NuxtLink>
-		<header class="univers -type-l">
-			<div>
+		<header class="">
+			<div class="univers -type-l">
 				“A Crack-Up at the Race Riots” against Lev Manovich’s Database and
 				Narrative
+			</div>
+			<div class="questions">
+				1. How do unconventional narratives shape complexity in works like "A
+				Crack-Up at the Race Riots"?<br />2. In "A Crack-Up at the Race Riots,"
+				how does the narrative-database relationship redefine storytelling
+				structures?
 			</div>
 		</header>
 		<main>
@@ -136,7 +142,7 @@
 					wordsArr[i].length
 				} ${String.fromCharCode(92)}A position: ${i}${String.fromCharCode(
 					92
-				)}A in-paragraph: ${index + 1}';">`
+				)}A paragraph: ${index + 1}';">`
 
 				wrappedText += wordsArr[i]
 
@@ -153,7 +159,7 @@
 			paragraphs.forEach((p, i) => {
 				countWords(p, i)
 				const length = Math.floor(p.childElementCount)
-				const cont = truncateString(p.textContent, 10)
+				const cont = truncateString(p.textContent, 25)
 
 				console.log(cont)
 				p.style = `--content: 'wordcount: ${length}${String.fromCharCode(
