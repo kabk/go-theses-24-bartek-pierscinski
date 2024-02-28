@@ -12,6 +12,9 @@ export default defineNuxtConfig({
 			name: 'fade',
 			mode: 'out-in',
 		},
+		head: {
+			link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+		},
 	},
 	modules: ['@vueuse/nuxt', '@nuxt/image', '@nuxt/content'],
 	ssr: true,
