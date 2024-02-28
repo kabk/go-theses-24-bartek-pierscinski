@@ -4,11 +4,9 @@
 		<header class="">
 			<div class="univers -type-l">INTRODUCTION</div>
 			<div class="questions">
-				1. How does introducing sophisticated characters and narratives
-				contribute positively to creative direction and design processes?
-				<br />
-				2. What properties of narrative can be harnessed in design, and what is
-				the relationship between narrative and the database?
+				<div v-for="(q, i) in questions" class="question">
+					{{ i + 1 + '. ' + q }}
+				</div>
 			</div>
 		</header>
 		<main>
@@ -69,14 +67,17 @@
 		layout: 'default',
 	})
 
-	const { currentRoute } = useRouter()
+	const { data: chapters } = await useAsyncData('chapters', () =>
+		queryContent('/chapters').findOne()
+	)
 
-	const parts = currentRoute.value.path.split('/')
-	const chapter = parts[parts.length - 2]
-	const subchapter = parts[parts.length - 1]
+	const { currentRoute } = useRouter()
+	const questions = await getQuestions(currentRoute.value.path)
+
+	console.log(questions)
 
 	onMounted(() => {
 		const paragraphs = document.querySelectorAll('p')
-		countParagraphs(paragraphs, chapter, subchapter)
+		countParagraphs(paragraphs, currentRoute.value.path)
 	})
 </script>

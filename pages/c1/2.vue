@@ -117,12 +117,8 @@
 
 	const { currentRoute } = useRouter()
 
-	const parts = currentRoute.value.path.split('/')
-	const chapter = parts[parts.length - 2]
-	const subchapter = parts[parts.length - 1]
-
 	onMounted(() => {
 		const paragraphs = document.querySelectorAll('p')
-		countParagraphs(paragraphs, chapter, subchapter)
+		countParagraphs(paragraphs, currentRoute.value.path)
 	})
 </script>

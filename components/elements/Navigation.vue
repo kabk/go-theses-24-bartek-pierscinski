@@ -16,13 +16,13 @@
 </template>
 
 <script setup>
+	const props = defineProps({
+		current: String,
+	})
+
 	const { data: chapters } = await useAsyncData('chapters', () =>
 		queryContent('/chapters').findOne()
 	)
-
-	const props = defineProps({
-		current: Object,
-	})
 
 	const resultIndex = chapters.value.arr.findIndex(
 		(obj) => obj.path === props.current
@@ -32,10 +32,6 @@
 		prev: chapters.value.arr[resultIndex - 1],
 		next: chapters.value.arr[resultIndex + 1],
 	}
-
-	console.log(nav)
-
-	const index = console.log(props.current)
 </script>
 
 <style lang="postcss" scoped></style>

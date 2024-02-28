@@ -23,6 +23,7 @@
 		justify-content: space-between;
 		gap: 3vw;
 		padding-left: 5px;
+		cursor: none;
 		& > div {
 			padding-top: 0.2em !important;
 		}
@@ -55,6 +56,7 @@
 				max-width: calc((100vw - 4 * var(--space-m)) / 4 * 2);
 				margin-left: calc((100vw - 4 * var(--space-m)) / 4 * 1);
 				margin-bottom: 0.5em;
+				cursor: none;
 				&:hover {
 					outline: var(--color2) solid 1px;
 
@@ -95,6 +97,7 @@
 					&::after {
 						position: absolute;
 						top: 2em;
+						left: 0;
 						content: var(--length);
 						display: none;
 						white-space: pre-line;
@@ -123,6 +126,7 @@
 				& > figcaption {
 					font-family: 'Office-Medium';
 					font-size: var(--type-xs);
+					line-height: 110%;
 					background-color: black;
 					max-width: calc((100vw - 4 * var(--space-m)) / 4 * 1);
 					text-transform: uppercase;
@@ -160,6 +164,7 @@
 			& > ref {
 				font-size: var(--type-xs);
 				font-family: 'Office-Medium';
+				line-height: 110%;
 				text-transform: uppercase;
 				& > .index {
 					background-color: var(--color2);
@@ -206,7 +211,7 @@
 				color: var(--color3);
 			}
 		}
-		& > a:last-of-type {
+		& > a:nth-of-type(2) {
 			border-left: 1px white solid;
 		}
 	}

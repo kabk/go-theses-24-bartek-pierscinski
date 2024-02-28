@@ -4,7 +4,11 @@
 			"title": "Introduction",
 			"path": "/intro/intro",
 			"type": "chapter",
-			"index": "INTRO"
+			"index": "INTRO",
+			"questions": [
+				"How does introducing sophisticated characters and narratives contribute positively to creative direction and design processes?",
+				"What properties of narrative can be harnessed in design, and what is the relationship between narrative and the database?"
+			]
 		},
 		{
 			"title": "The origin of my interest towards narrative methods",

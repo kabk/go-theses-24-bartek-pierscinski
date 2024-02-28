@@ -1,11 +1,13 @@
-export default function (paragraphs, chapter, subchapter) {
+export default function (paragraphs, currentRoute) {
+	const parts = currentRoute.split('/')
+	const chapter = parts[parts.length - 2]
+	const subchapter = parts[parts.length - 1]
 	if (paragraphs) {
 		paragraphs.forEach((p, i) => {
-			countWords(p, i)
+			countWords(p, i, chapter, subchapter)
 			const length = Math.floor(p.childElementCount)
 			const cont = truncateString(p.textContent, 25)
 
-			console.log(cont)
 			p.style = `--content: 'wordcount: ${length}${String.fromCharCode(
 				92
 			)}A index: ${i + 1}${String.fromCharCode(
