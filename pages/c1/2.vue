@@ -74,6 +74,15 @@
 					would be THE explicit, tangible thing) can only exist in the viewer’s
 					imagination, becomes somehow the responsibility of the viewer.
 				</p>
+				<iframe
+					:width="(width / 4) * 3 - 40"
+					:height="(((width / 4) * 3 - 40) * 9) / 16"
+					src="https://www.youtube.com/embed/Fb0ny1g_pC0?si=H2E_C1-TVTWIWpiw"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+				></iframe>
 				<p>
 					Another interesting aspect of the book is that it becomes truly a
 					random-access medium (which in Manovich’s opinion a book already is).
@@ -117,6 +126,8 @@
 	definePageMeta({
 		layout: 'default',
 	})
+
+	const { width } = useWindowSize()
 
 	const { currentRoute } = useRouter()
 

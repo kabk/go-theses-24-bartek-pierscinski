@@ -14,9 +14,9 @@ export default function (paragraphs, currentRoute) {
 				92
 			)}A firstwords: ${cont}${String.fromCharCode(
 				92
-			)}A subchapter: ${subchapter}${String.fromCharCode(
-				92
-			)}A chapter: ${chapter}';`
+			)}A subchapter: ${subchapter}${String.fromCharCode(92)}A chapter: ${
+				chapter[1]
+			}';`
 		})
 	} else {
 		console.error('Container with id ' + 'a' + ' not found.')

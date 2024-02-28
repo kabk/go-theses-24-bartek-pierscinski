@@ -64,12 +64,16 @@
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
 		width: 25vw;
-		padding-left: var(--space-m);
+		padding-left: 2px;
 		padding-right: var(--space-m);
 		max-height: 20vh;
+		position: fixed;
+		right: 0;
+
 		/* @media screen and (max-width: 640px) {
 			grid-template-columns: repeat(2, 1fr);
 		} */
+		background-color: black;
 		& > .col {
 			display: flex;
 			flex-direction: column;
@@ -92,6 +96,8 @@
 				border: var(--color3) 1px solid;
 				&:hover {
 					border: var(--color2) 1px solid;
+					background-color: var(--color3);
+					color: black;
 				}
 			}
 

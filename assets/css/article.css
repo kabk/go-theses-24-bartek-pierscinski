@@ -134,6 +134,8 @@
 					font-family: 'Office-Medium';
 					font-size: var(--type-xs);
 					line-height: 110%;
+					color: var(--color4);
+					text-wrap: balance;
 					background-color: black;
 					max-width: calc((100vw - 4 * var(--space-m)) / 4 * 1);
 					text-transform: uppercase;
@@ -179,6 +181,7 @@
 				}
 
 				& > .content {
+					color: var(--color4);
 					padding: 2px;
 					border-left: solid 1px white;
 					border-right: solid 1px white;
