@@ -2,7 +2,7 @@
 	"arr": [
 		{
 			"title": "Introduction",
-			"path": "/c1/2",
+			"path": "/intro/intro",
 			"type": "chapter",
 			"index": "INTRO"
 		},

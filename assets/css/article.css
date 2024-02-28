@@ -179,4 +179,35 @@
 			}
 		}
 	}
+
+	& > nav {
+		width: 100%;
+		outline: var(--color2) solid 1px;
+		display: flex;
+		flex-direction: row;
+		align-items: stretch;
+		margin-bottom: 2vh;
+		margin-top: 5vh;
+		& > a {
+			flex-grow: 1;
+			min-width: 48vw;
+			padding-left: var(--space-m);
+			padding-bottom: var(--space-m);
+			& > .label {
+				font-size: var(--type-xs);
+				font-family: 'Office-Medium';
+				text-transform: uppercase;
+			}
+
+			& > .questions {
+				font-size: var(--type-xs);
+				font-family: 'Office-Medium';
+				text-transform: uppercase;
+				color: var(--color3);
+			}
+		}
+		& > a:last-of-type {
+			border-left: 1px white solid;
+		}
+	}
 }

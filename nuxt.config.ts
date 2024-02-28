@@ -5,11 +5,11 @@ export default defineNuxtConfig({
 	app: {
 		baseURL: '/go-theses-24-bartek-pierscinski/',
 		pageTransition: {
-			name: 'pagetransition',
+			name: 'fade',
 			mode: 'out-in',
 		},
 		layoutTransition: {
-			name: 'pagetransition',
+			name: 'fade',
 			mode: 'out-in',
 		},
 	},
