@@ -3,14 +3,13 @@
 		<section class="title univers -type-l">
 			When you talk about someone, they instantly become special, because they
 			are a hero of the tale…
+			{{ mobile }}
 		</section>
 		<nav></nav>
 	</header>
 </template>
 
 <script setup>
-	const { mobile } = useScreenSize()
-
 	const props = defineProps({
 		medium: Object,
 	})

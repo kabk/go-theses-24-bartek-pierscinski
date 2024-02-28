@@ -5,10 +5,11 @@
 		text-align: center;
 		margin-top: 0.6em;
 		font-family: 'Office-Medium';
-		color: var(--color);
+		color: var(--color2);
 		font-size: var(--type-xs);
 	}
 	& > header {
+		color: var(--color4);
 		& > div {
 			max-width: calc((100vw - 4 * var(--space-m)) / 4 * 2);
 		}
@@ -19,7 +20,7 @@
 	}
 
 	& > main {
-		border-top: var(--color) 2px solid;
+		border-top: var(--color2) 2px solid;
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
 		padding: 0 var(--space-m);
@@ -30,6 +31,59 @@
 				max-width: calc((100vw - 4 * var(--space-m)) / 4 * 2);
 				margin-left: calc((100vw - 4 * var(--space-m)) / 4 * 1);
 				margin-bottom: 0.5em;
+				&:hover {
+					outline: var(--color2) solid 1px;
+					&:before {
+						display: block;
+					}
+				}
+
+				&:before {
+					display: none;
+					position: absolute;
+					left: var(--space-m);
+					content: var(--content);
+					white-space: pre;
+					font-family: 'Office-Medium';
+					color: var(--color2);
+					font-size: var(--type-xs);
+					line-height: 110%;
+					background-color: black;
+					z-index: 3;
+					width: min-content;
+					text-transform: uppercase;
+					padding: 1px;
+					outline: var(--color2) solid 1px;
+					max-width: 30ch;
+				}
+
+				& > .word {
+					position: relative;
+					&:hover {
+						outline: var(--color3) 1px solid;
+						&::after {
+							display: block;
+						}
+					}
+					&::after {
+						position: absolute;
+						top: 2em;
+						content: var(--length);
+						display: none;
+						white-space: pre-line;
+						white-space: break-spaces;
+						font-family: 'Office-Medium';
+						color: var(--color3);
+						font-size: var(--type-xs);
+						line-height: 110%;
+						background-color: black;
+						z-index: 3;
+						width: max-content;
+						text-transform: uppercase;
+						padding: 1px;
+						outline: var(--color3) solid 1px;
+					}
+				}
 			}
 
 			& > figure {
@@ -38,7 +92,7 @@
 				margin-bottom: 1em;
 				max-width: calc((100vw - 4 * var(--space-m)) / 4 * 3);
 				padding-right: calc((100vw - 4 * var(--space-m)) / 4 * 1);
-				background-color: var(--color);
+				background-color: var(--color2);
 				& > figcaption {
 					font-family: 'Office-Medium';
 					font-size: var(--type-xs);
@@ -57,7 +111,7 @@
 				margin-left: calc((100vw - 4 * var(--space-m)) / 4 * 1);
 				padding-left: var(--space-m);
 				border-left: white 2px solid;
-				color: var(--color);
+				color: var(--color2);
 				font-size: 120%;
 				line-height: 100%;
 				margin-top: 0.5em;
@@ -81,7 +135,7 @@
 				font-family: 'Office-Medium';
 				text-transform: uppercase;
 				& > .index {
-					background-color: var(--color);
+					background-color: var(--color2);
 					color: black;
 				}
 
@@ -91,7 +145,7 @@
 					border-right: solid 1px white;
 					border-bottom: solid 1px white;
 					& > a {
-						color: var(--color);
+						color: var(--color2);
 						text-decoration: underline;
 					}
 				}

@@ -9,7 +9,9 @@ img {
 :root {
 	--color: yellow;
 	--color1: #262626;
-	--color2: #a7a7a7;
+	--color2: #c3e88d;
+	--color3: #ae81ff;
+	--color4: #b2ccd6;
 	--space-s: 4px;
 	--space-m: 10px;
 	--space-l: 6vw;
@@ -58,8 +60,8 @@ body {
 	padding: 0;
 	margin: 0;
 	color: white;
-	/* background-color: black; */
-	background: linear-gradient(#000000, var(--color1));
+	background-color: black;
+	/* background: linear-gradient(#000000, var(--color1)); */
 }
 
 .wrapper {

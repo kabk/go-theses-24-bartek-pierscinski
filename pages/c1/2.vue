@@ -28,10 +28,10 @@
 				</figure>
 				<p>
 					As I already mentioned, the starting point to my adventure with
-					idiosyncratic narratives has been “A Crack-Up at the Race Riots”. Even
+					idiosyncratic narratives has been “A Crack-p at the Race Riots”. Even
 					though a search for one plot line will most likely turn out to be
 					fruitless, it doesn’t take away from the amusement value of Korine’s
-					writing. It’s as entertaining as it is intriguing and leaves you
+					writing. It’s as entertaining as it is intriguinUg and leaves you
 					questioning yourself and curious as to whether maybe there was a clear
 					metaphorical plot or whether the two-chapter structure signified
 					something intelligible.
@@ -110,5 +110,69 @@
 			name: 'slide',
 			mode: 'out-in',
 		},
+	})
+
+	const { currentRoute } = useRouter()
+
+	const parts = currentRoute.value.path.split('/')
+	const chapter = parts[parts.length - 2]
+	const subchapter = parts[parts.length - 1]
+
+	function truncateString(str, num) {
+		if (str.length > num) {
+			return str.slice(0, num) + '...'
+		} else {
+			return str
+		}
+	}
+
+	function countWords(p, index) {
+		if (p) {
+			var wordsArr = p.textContent.split(' ')
+			var wrappedText = ''
+
+			for (var i = 0; i < wordsArr.length; i++) {
+				wrappedText += `<span class="word" style="--length: 'characters: ${
+					wordsArr[i].length
+				} ${String.fromCharCode(92)}A position: ${i}${String.fromCharCode(
+					92
+				)}A in-paragraph: ${index + 1}';">`
+
+				wrappedText += wordsArr[i]
+
+				wrappedText += '</span> '
+			}
+			p.innerHTML = wrappedText
+		} else {
+			console.error('Container with id ' + 'a' + ' not found.')
+		}
+	}
+
+	function countParagraphs(paragraphs) {
+		if (paragraphs) {
+			paragraphs.forEach((p, i) => {
+				countWords(p, i)
+				const length = Math.floor(p.childElementCount)
+				const cont = truncateString(p.textContent, 10)
+
+				console.log(cont)
+				p.style = `--content: 'wordcount: ${length}${String.fromCharCode(
+					92
+				)}A index: ${i + 1}${String.fromCharCode(
+					92
+				)}A firstwords: ${cont}${String.fromCharCode(
+					92
+				)}A subchapter: ${subchapter}${String.fromCharCode(
+					92
+				)}A chapter: ${chapter}';`
+			})
+		} else {
+			console.error('Container with id ' + 'a' + ' not found.')
+		}
+	}
+
+	onMounted(() => {
+		const paragraphs = document.querySelectorAll('p')
+		countParagraphs(paragraphs)
 	})
 </script>

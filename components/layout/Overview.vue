@@ -47,8 +47,9 @@
 	const { data: chapters } = await useAsyncData('chapters', () =>
 		queryContent('/chapters').findOne()
 	)
+
 	const { mobile } = useScreenSize()
-	console.log(chapters.value)
+
 	const props = defineProps({
 		medium: Object,
 	})
