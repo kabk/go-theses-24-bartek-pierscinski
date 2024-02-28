@@ -1,12 +1,12 @@
 <template>
-	<main>
+	<div class="map">
 		<div class="col">
 			<NuxtLink
 				v-for="c in getEls(chapters.arr, 0, 3)"
 				:to="c.path"
 				:class="[c.type]"
 			>
-				<div class="title">{{ c.title }}</div>
+				<!-- <div class="title">{{ c.title }}</div> -->
 				<div class="index">{{ c.index }}</div>
 			</NuxtLink>
 		</div>
@@ -16,7 +16,7 @@
 				:to="c.path"
 				:class="[c.type]"
 			>
-				<div class="title">{{ c.title }}</div>
+				<!-- <div class="title">{{ c.title }}</div> -->
 				<div class="index">{{ c.index }}</div>
 			</NuxtLink>
 		</div>
@@ -26,7 +26,7 @@
 				:to="c.path"
 				:class="[c.type]"
 			>
-				<div class="title">{{ c.title }}</div>
+				<!-- <div class="title">{{ c.title }}</div> -->
 				<div class="index">{{ c.index }}</div>
 			</NuxtLink>
 		</div>
@@ -36,11 +36,11 @@
 				:to="c.path"
 				:class="[c.type]"
 			>
-				<div class="title">{{ c.title }}</div>
+				<!-- <div class="title">{{ c.title }}</div> -->
 				<div class="index">{{ c.index }}</div>
 			</NuxtLink>
 		</div>
-	</main>
+	</div>
 </template>
 
 <script setup>
@@ -60,15 +60,16 @@
 </script>
 
 <style lang="postcss" scoped>
-	main {
+	.map {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
-		/* gap: var(--space-m); */
-		height: 60vh;
-		width: 100vw;
-		@media screen and (max-width: 640px) {
+		width: 25vw;
+		padding-left: var(--space-m);
+		padding-right: var(--space-m);
+		max-height: 20vh;
+		/* @media screen and (max-width: 640px) {
 			grid-template-columns: repeat(2, 1fr);
-		}
+		} */
 		& > .col {
 			display: flex;
 			flex-direction: column;

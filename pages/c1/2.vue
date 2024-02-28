@@ -2,16 +2,19 @@
 	<div class="page">
 		<NuxtLink to="/" class="close">CLOSE</NuxtLink>
 		<header class="">
-			<div class="univers -type-l">
-				“A Crack-Up at the Race Riots” against Lev Manovich’s Database and
-				Narrative
+			<div class="title">
+				<div class="univers -type-l">
+					“A Crack-Up at the Race Riots” against Lev Manovich’s Database and
+					Narrative
+				</div>
+				<div class="questions">
+					1. How do unconventional narratives shape complexity in works like "A
+					Crack-Up at the Race Riots"?<br />2. In "A Crack-Up at the Race
+					Riots," how does the narrative-database relationship redefine
+					storytelling structures?
+				</div>
 			</div>
-			<div class="questions">
-				1. How do unconventional narratives shape complexity in works like "A
-				Crack-Up at the Race Riots"?<br />2. In "A Crack-Up at the Race Riots,"
-				how does the narrative-database relationship redefine storytelling
-				structures?
-			</div>
+			<LayoutMap></LayoutMap>
 		</header>
 		<main>
 			<div class="content">
@@ -34,10 +37,10 @@
 				</figure>
 				<p>
 					As I already mentioned, the starting point to my adventure with
-					idiosyncratic narratives has been “A Crack-p at the Race Riots”. Even
+					idiosyncratic narratives has been “A Crack-Up at the Race Riots”. Even
 					though a search for one plot line will most likely turn out to be
 					fruitless, it doesn’t take away from the amusement value of Korine’s
-					writing. It’s as entertaining as it is intriguinUg and leaves you
+					writing. It’s as entertaining as it is intriguing and leaves you
 					questioning yourself and curious as to whether maybe there was a clear
 					metaphorical plot or whether the two-chapter structure signified
 					something intelligible.

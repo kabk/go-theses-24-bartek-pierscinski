@@ -1,13 +1,16 @@
 <template>
 	<div class="page">
 		<NuxtLink to="/" class="close">CLOSE</NuxtLink>
-		<header class="">
-			<div class="univers -type-l">INTRODUCTION</div>
-			<div class="questions">
-				<div v-for="(q, i) in questions" class="question">
-					{{ i + 1 + '. ' + q }}
+		<header>
+			<div class="title">
+				<div class="univers -type-l">INTRODUCTION</div>
+				<div class="questions">
+					<div v-for="(q, i) in questions" class="question">
+						{{ i + 1 + '. ' + q }}
+					</div>
 				</div>
 			</div>
+			<LayoutMap></LayoutMap>
 		</header>
 		<main>
 			<div class="content">
