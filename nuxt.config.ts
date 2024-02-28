@@ -13,7 +13,13 @@ export default defineNuxtConfig({
 			mode: 'out-in',
 		},
 		head: {
-			link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+			link: [
+				{
+					rel: 'icon',
+					type: 'image/x-icon',
+					href: '/go-theses-24-bartek-pierscinski/favicon.ico',
+				},
+			],
 		},
 	},
 	modules: ['@vueuse/nuxt', '@nuxt/image', '@nuxt/content'],
