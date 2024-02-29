@@ -188,6 +188,9 @@
 				line-height: 100%;
 				margin-top: 0.5em;
 				margin-bottom: 1em;
+				@media screen and (max-width: 600px) {
+					max-width: calc((100vw - 4 * var(--space-m)) / 4 * 3);
+				}
 				& > .caption {
 					font-family: 'Office-Medium';
 					color: white;
