@@ -32,22 +32,22 @@
 					aesthetics, constituting an experience that parallels the dynamic and
 					interconnected nature of digital information. From subchapter to
 					subchapter, the design elements serve as integral components of the
-					narrative, embodying the concepts discussed in the text-instances.
-					This narrative challenges established structures, embracing the
-					fluidity of ideas within an interactive interface and attempts to make
-					the most out of the potentials of digital publishing.
+					narrative, embodying the concepts discussed in the text instances.
+					This narrative, embracing the random-access nature of the text within
+					an interactive interface, attempts to make the most out of the
+					potential of digital publishing.
 				</p>
 				<p>
 					What can be the positive contributions of the introduction of
 					sophisticated, designed characters and narratives to the world of
-					creative direction. What are some properties of narrative that can be
+					creative direction? What are some properties of narrative that can be
 					used in design and analysis processes? What is the relationship
-					between narrative and the database? This text examines the real and
-					potential opportunities given to designers by introducing elements of
-					viewer activation, character-creation, or certain non-standard
+					between the narrative and the database? This text examines the real
+					and potential opportunities given to designers by introducing elements
+					of viewer activation, character creation, or certain non-standard
 					narrative strategies. I do it through a series of descriptions,
-					examples and theories, always regarding works that have been
-					considered widely successful in utilising the aforementioned
+					examples, and theories, always regarding works that have been
+					considered widely successful in utilizing the aforementioned
 					methodologies.
 				</p>
 			</div>

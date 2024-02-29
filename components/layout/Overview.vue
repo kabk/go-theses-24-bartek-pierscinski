@@ -22,7 +22,7 @@
 		</div>
 		<div class="col">
 			<NuxtLink
-				v-for="c in getEls(chapters.arr, 6, 8)"
+				v-for="c in getEls(chapters.arr, 7, 9)"
 				:to="c.path"
 				:class="[c.type]"
 			>
@@ -32,7 +32,7 @@
 		</div>
 		<div class="col">
 			<NuxtLink
-				v-for="c in getEls(chapters.arr, 0, 3)"
+				v-for="c in getEls(chapters.arr, 10, 13)"
 				:to="c.path"
 				:class="[c.type]"
 			>

@@ -67,6 +67,15 @@
 	}
 }
 
+@media screen and (min-width: 1500px) {
+	:root {
+		--type-s: 1vw;
+		--type-m: 2vw;
+		--type-l: max(5vw, 35px);
+		--type-xl: 8vw;
+	}
+}
+
 html,
 body {
 	font-family: 'Unica-M', sans-serif;

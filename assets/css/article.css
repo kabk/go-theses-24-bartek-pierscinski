@@ -214,6 +214,10 @@
 				text-transform: uppercase;
 			}
 
+			& > .title {
+				text-wrap: balance;
+			}
+
 			& > .questions {
 				font-size: var(--type-xs);
 				font-family: 'Office-Medium';

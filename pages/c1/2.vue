@@ -8,10 +8,9 @@
 					Narrative
 				</div>
 				<div class="questions">
-					1. How do unconventional narratives shape complexity in works like "A
-					Crack-Up at the Race Riots"?<br />2. In "A Crack-Up at the Race
-					Riots," how does the narrative-database relationship redefine
-					storytelling structures?
+					<div v-for="(q, i) in questions" class="question">
+						{{ i + 1 + '. ' + q }}
+					</div>
 				</div>
 			</div>
 			<LayoutMap></LayoutMap>
@@ -20,14 +19,15 @@
 			<div class="content">
 				<p>
 					Since I remember I have been fascinated with unusual narrative
-					methods, idiosyncrasy and characterisation, eerie and weird scenes. It
-					has been of great interest to me, setting of to doing the research for
-					this paper, the methods and techniques leading to the creation of such
-					complex, yet dissociated narratives as the ones introduced above. It
-					was not an easy process and the most valuable results came from the
-					most unexpected sources found accidentally, but I was eventually happy
-					to have stumbled upon some clues that help me get an understanding of
-					the creative process behind the discussed works.
+					methods, idiosyncrasy and characterization. Setting off to doing the
+					research for this paper, the methods and techniques leading to the
+					creation of such complex, yet dissociated narratives as the ones
+					introduced above, were my focus point. It was a convoluted and
+					unsettling process and the most valuable results came from the most
+					unexpected sources, but I was eventually happy to have stumbled upon
+					some clues that helped me get an understanding of what I was most
+					curious about, so the creative processes behind the aforementioned
+					works that sparked my interest.
 				</p>
 				<figure>
 					<img src="/content/c/1/drama.png" alt="" />
@@ -36,64 +36,74 @@
 					</figcaption>
 				</figure>
 				<p>
-					As I already mentioned, the starting point to my adventure with
-					idiosyncratic narratives has been “A Crack-Up at the Race Riots”. Even
-					though a search for one plot line will most likely turn out to be
-					fruitless, it doesn’t take away from the amusement value of Korine’s
-					writing. It’s as entertaining as it is intriguing and leaves you
-					questioning yourself and curious as to whether maybe there was a clear
-					metaphorical plot or whether the two-chapter structure signified
-					something intelligible.
+					In the case of this text, the starting point to my adventure with
+					idiosyncratic narratives has been “A Crack-Up at the Race Riots”. The
+					fragmented narrative proved to work on me, and activate me over the
+					course of many years of me being familiar with it. It’s as
+					entertaining as it is intriguing and leaves you questioning yourself
+					and curious as to whether you as the reader perhaps overlooked a clear
+					metaphorical plot or whether maybe the two-chapter structure signified
+					something intelligible that you just simply missed.
 				</p>
 				<p>
-					Reading Lev Manovich’s article “Database as a Symbolic Form” somehow
-					directed me to insightful ways of thinking about that book. First it
-					talks about the narrative—database opposition in the context of both
-					classic narrative media such as books or movies and new-media objects.
+					Lev Manovich’s article “Database as a Symbolic Form” somehow directed
+					me to insightful ways of thinking about that book. In the article
+					Manovich talks about the narrative—database opposition in the context
+					of both classic narrative media such as books or movies and new-media
+					objects. He explains the differences between the “user experiences” of
+					works that adapt the database and the narrative model and how through
+					this aspect each one of them reflects their author’s perspective of
+					what the world is like and how it should be represented. He argues
+					that databases and narratives are cultural forms that compete for
+					meaning-making in the human experience. While databases represent the
+					world as a list of unordered items, narratives create cause-and-effect
+					trajectories. The author asserts that in the computer age, databases
+					become central to the creative process, separating content from
+					interface.
+				</p>
+				<p>
+					Manovich then proceeds to explain “The Semiotics of Database” and
+					explains the syntagmatic dimension as a linear combination of signs
+					with a spatial support and the paradigmatic dimension as the selection
+					of elements from related sets.
 				</p>
 				<blockquote>
 					<div class="quote">
-						Literary and cinematic narratives work in this way. Particular
-						words, sentences, shots, scenes which make up a narrative have a
-						material existence; other elements which form an imaginary world of
-						an author or a particular literary or cinematic style and which
-						could have appeared instead exist only virtually. Put differently,
-						the database of choices from which narrative is constructed (the
-						paradigm) is implicit; while the actual narrative (the syntagm) is
-						explicit.
+						Literary and cinematic narratives work in the same way [as natural
+						language]. Particular words, sentences, shots, scenes which make up
+						a narrative have a material existence; other elements which form an
+						imaginary world of an author or a particular literary or cinematic
+						style and which could have appeared instead exist only virtually.
+						Put differently, the database of choices from which narrative is
+						constructed (the paradigm) is implicit; while the actual narrative
+						(the syntagm) is explicit.
 					</div>
 					<div class="caption">Lev Manovich</div>
 				</blockquote>
 				<p>
-					His claim that new media reverses those relationships of traditional
-					narrative media—database (the paradigm) is tangible, concrete, while
-					narrative (the syntagm) is de-materialised—finds a great application
-					in Korine’s book. The database, so in this case the contents of
-					Korine's hyperactive mind are given a material existence as printed
-					words on paper, while the narrative (which in a traditional novel
-					would be THE explicit, tangible thing) can only exist in the viewer’s
-					imagination, becomes somehow the responsibility of the viewer.
+					He claims that new media reverses the traditional narrative–database
+					relationship present in the old media, such as novels or traditional
+					cinema—database (the paradigmatic aspect) suddenly becomes tangible,
+					concrete, while narrative (the syntagmatic aspect) is de-materialized.
+					This finds a great application in Korine’s book. The database, so, in
+					this case, the contents of Korine's hyperactive mind are given a
+					material existence as printed words on paper, while the narrative
+					(which in a traditional novel would be THE explicit, tangible thing)
+					can only exist in the viewer’s imagination, becomes somehow the
+					responsibility of the viewer.
 				</p>
-				<iframe
-					:width="(width / 4) * 3 - 40"
-					:height="(((width / 4) * 3 - 40) * 9) / 16"
-					src="https://www.youtube.com/embed/Fb0ny1g_pC0?si=H2E_C1-TVTWIWpiw"
-					title="YouTube video player"
-					frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-					allowfullscreen
-				></iframe>
+
 				<p>
-					Another interesting aspect of the book is that it becomes truly a
-					random-access medium (which in Manovich’s opinion a book already is).
-					It favours the database structure and allows for it’s reading from all
-					kinds of different directions and sequences. It is truly more of an
-					instance of an encyclopedia than it is a novel. There is no indexing
-					or lineage other than the sequence of the pages and the separation of
-					the content of the book into two chapters. In Manovich’s words: there
-					is no algorithm, no explicit, direct interface that allows for
-					structured navigation of the database to the viewer. The viewer is
-					welcome to create their own.
+					Another interesting aspect of Korine’s book is that it becomes truly a
+					random-access medium (which actually in Manovich’s opinion any book
+					already is, compared to, say, a movie). It favors the database
+					structure and allows for its reading from all kinds of different
+					directions and sequences. It is truly more of a sort of an
+					encyclopedia than it is a novel. There is no indexing or lineage other
+					than the sequence of the pages and the arrangement of the book into
+					two chapters. In Manovich’s words: there is no algorithm, no explicit,
+					direct interface that allows for structured navigation of the database
+					to the viewer. The viewer is welcome to create their own.
 				</p>
 			</div>
 			<div class="refs">
@@ -130,6 +140,7 @@
 	const { width } = useWindowSize()
 
 	const { currentRoute } = useRouter()
+	const questions = await getQuestions(currentRoute.value.path)
 
 	onMounted(() => {
 		const paragraphs = document.querySelectorAll('p')
