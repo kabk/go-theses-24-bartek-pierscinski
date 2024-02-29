@@ -29,12 +29,21 @@
 			gap: 3vw;
 			padding-left: 5px;
 			cursor: default;
+			@media screen and (max-width: 600px) {
+				max-width: 60vw;
+			}
 			& > div {
 				padding-top: 0.2em !important;
 			}
 
 			&:hover {
 				outline: var(--color3) 1px solid;
+				& > .questions {
+					opacity: 1;
+				}
+			}
+
+			@media screen and (max-width: 600px) {
 				& > .questions {
 					opacity: 1;
 				}
@@ -57,13 +66,21 @@
 		grid-template-columns: repeat(4, 1fr);
 		padding: 0 var(--space-m);
 		gap: var(--space-m);
+		@media screen and (max-width: 600px) {
+			grid-template-columns: 1fr;
+		}
 		& > .content {
 			grid-column: 1/-2;
+			@media screen and (max-width: 600px) {
+				grid-column: 1/-1;
+			}
 			& > p {
 				max-width: calc((100vw - 4 * var(--space-m)) / 4 * 2);
 				margin-left: calc((100vw - 4 * var(--space-m)) / 4 * 1);
 				margin-bottom: 0.5em;
-
+				@media screen and (max-width: 600px) {
+					max-width: calc((100vw - 4 * var(--space-m)) / 4 * 3);
+				}
 				cursor: none;
 				&:hover {
 					outline: var(--color2) solid 1px;
@@ -90,6 +107,13 @@
 					padding: 1px;
 					outline: var(--color2) solid 1px;
 					max-width: 50ch;
+				}
+
+				@media screen and (max-width: 600px) {
+					&:before {
+						max-width: 15ch;
+						overflow: hidden;
+					}
 				}
 
 				& > .word {

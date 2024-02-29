@@ -60,7 +60,7 @@
 
 @media screen and (max-width: 600px) {
 	:root {
-		--type-s: 13px;
+		--type-s: 15px;
 		--type-m: 4.5vw;
 		--type-l: 6.5vw;
 		--type-xl: 9vw;

@@ -69,6 +69,11 @@
 		max-height: 20vh;
 		position: fixed;
 		right: 0;
+		@media screen and (max-width: 600px) {
+			right: 10px;
+			background-color: black;
+			z-index: 50;
+		}
 
 		/* @media screen and (max-width: 640px) {
 			grid-template-columns: repeat(2, 1fr);
