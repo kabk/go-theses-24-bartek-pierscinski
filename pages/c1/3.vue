@@ -6,7 +6,7 @@
 				<div class="univers -type-l">"The DNA of a Fox"</div>
 				<div class="questions">
 					<div v-for="(q, i) in questions" class="question">
-						{{ i + 1 + '. ' + q }}
+						{{ '[' + (i + 1) + '] ' + q }}
 					</div>
 				</div>
 			</div>

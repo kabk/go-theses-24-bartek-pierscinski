@@ -6,7 +6,7 @@
 				<div class="univers -type-l">Manovich on Greenaway and Vertov</div>
 				<div class="questions">
 					<div v-for="(q, i) in questions" class="question">
-						{{ i + 1 + '. ' + q }}
+						{{ '[' + (i + 1) + '] ' + q }}
 					</div>
 				</div>
 			</div>
