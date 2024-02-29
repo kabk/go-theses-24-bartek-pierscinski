@@ -60,7 +60,7 @@
 					various forms, whether through fiction, documentary, or other mediums.
 					Solondz uses a provocative approach to explore the impact of
 					storytelling on both creators and subjects, highlighting the potential
-					for exploitation and the thin line between truth and fiction. It also
+					for exploitation and the thin line between truth and fiction. He also
 					delves into the complexities of representation and exploitation in
 					storytelling. The portrayal of both fictional and real moments,
 					fragments of stories as somehow equivalent to each other raises
