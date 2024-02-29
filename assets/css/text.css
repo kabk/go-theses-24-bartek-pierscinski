@@ -45,6 +45,10 @@
 	font-family: 'R';
 	src: url('/assets/Replica.otf') format('opentype');
 }
+@font-face {
+	font-family: 'Century';
+	src: url('/assets/Century.woff') format('woff');
+}
 
 :root {
 	--type-xs: calc(var(--type-s) * 0.65);
