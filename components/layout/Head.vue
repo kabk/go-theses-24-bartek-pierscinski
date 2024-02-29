@@ -18,5 +18,6 @@
 	.title {
 		max-width: 30ch;
 		color: var(--color4);
+		user-select: none;
 	}
 </style>
