@@ -15,6 +15,7 @@
 				v-for="c in getEls(chapters.arr, 4, 6)"
 				:to="c.path"
 				:class="[c.type]"
+				:data-index="c.index"
 			>
 				<!-- <div class="title">{{ c.title }}</div> -->
 				<div class="index">{{ c.index }}</div>
@@ -25,6 +26,7 @@
 				v-for="c in getEls(chapters.arr, 7, 9)"
 				:to="c.path"
 				:class="[c.type]"
+				:data-index="c.index"
 			>
 				<!-- <div class="title">{{ c.title }}</div> -->
 				<div class="index">{{ c.index }}</div>
@@ -35,6 +37,7 @@
 				v-for="c in getEls(chapters.arr, 10, 13)"
 				:to="c.path"
 				:class="[c.type]"
+				:data-index="c.index"
 			>
 				<!-- <div class="title">{{ c.title }}</div> -->
 				<div class="index">{{ c.index }}</div>
@@ -53,6 +56,8 @@
 	const props = defineProps({
 		medium: Object,
 	})
+
+	const { currentRoute } = useRouter()
 
 	function getEls(arr, startIndex, endIndex) {
 		return arr.slice(startIndex, endIndex + 1)
@@ -102,6 +107,10 @@
 				&:hover {
 					border: var(--color2) 1px solid;
 					background-color: var(--color3);
+					color: black;
+				}
+				&.router-link-active {
+					background-color: var(--color4);
 					color: black;
 				}
 			}
