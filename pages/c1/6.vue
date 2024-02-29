@@ -36,7 +36,7 @@
 					in one incarnation even a young boy).
 				</p>
 				<p>
-					Solondz’s movie that I would like to expand on is “Storytelling”
+					The Solondz’s movie that I would like to expand on is “Storytelling”
 					(2001). The two main reasons for its relevance in this text are its
 					non-linear narrative treatment and a quite concrete purpose for it
 					being so. The movie is divided into two parts that portray completely
