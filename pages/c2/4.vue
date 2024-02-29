@@ -33,6 +33,14 @@
 					arriving at new narrative methods that take into account that its
 					elements are database instances.
 				</p>
+				<iframe
+					src="https://player.vimeo.com/video/891906551?h=0b25ef0bff"
+					:width="(width / 4) * 3 - 40"
+					:height="(((width / 4) * 3 - 40) * 3) / 4"
+					frameborder="0"
+					allow="autoplay; fullscreen; picture-in-picture"
+					allowfullscreen
+				></iframe>
 				<p>
 					He cites Peter Greenaway and Dziga Vertov as two practitioners of the
 					methods that work to sabotage the idea of a “plot” and emphasize the
@@ -71,27 +79,7 @@
 					<div class="caption">Lev Manovich</div>
 				</blockquote> -->
 			</div>
-			<div class="refs">
-				<ref>
-					<div class="index">[1.1]</div>
-					<div class="content">
-						Kohn, Eric. “Nashville. Harmony’s House. Present Day.”, Harmony
-						Korine Interviews, Edited by Eric Kohn, University Press of
-						Missisipi, 2015, pp. 90-95.
-					</div>
-				</ref>
-				<ref>
-					<div class="index">[1.2]</div>
-					<div class="content">
-						Szejnach, Piotr. “Oskar Dawicki w swoim mieszkaniu-pracowni, jak
-						mówi: w swym ‘cenotafie’”, Warszawa, 2013 rok.
-						<a
-							href="https://magazynszum.pl/wp-content/uploads/2023/09/64-dawicki-oskar-2013-scaled.jpg"
-							>https://magazynszum.pl/wp-content/uploads/2023/09/64-dawicki-oskar-2013-scaled.jpg</a
-						>
-					</div>
-				</ref>
-			</div>
+			<div class="refs"></div>
 		</main>
 		<ElementsNavigation :current="currentRoute.path"></ElementsNavigation>
 	</div>

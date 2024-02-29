@@ -7,7 +7,12 @@
 				:class="[c.type]"
 			>
 				<div class="title">{{ c.title }}</div>
-				<div class="index">{{ c.index }}</div>
+				<div class="index">
+					<div v-for="(q, i) in c.questions" class="question">
+						{{ '[' + (i + 1) + '] ' + q }}
+					</div>
+					{{ c.index }}
+				</div>
 			</NuxtLink>
 		</div>
 		<div class="col">
@@ -17,7 +22,12 @@
 				:class="[c.type]"
 			>
 				<div class="title">{{ c.title }}</div>
-				<div class="index">{{ c.index }}</div>
+				<div class="index">
+					<div v-for="(q, i) in c.questions" class="question">
+						{{ '[' + (i + 1) + '] ' + q }}
+					</div>
+					{{ c.index }}
+				</div>
 			</NuxtLink>
 		</div>
 		<div class="col">
@@ -27,7 +37,12 @@
 				:class="[c.type]"
 			>
 				<div class="title">{{ c.title }}</div>
-				<div class="index">{{ c.index }}</div>
+				<div class="index">
+					<div v-for="(q, i) in c.questions" class="question">
+						{{ '[' + (i + 1) + '] ' + q }}
+					</div>
+					{{ c.index }}
+				</div>
 			</NuxtLink>
 		</div>
 		<div class="col">
@@ -37,7 +52,12 @@
 				:class="[c.type]"
 			>
 				<div class="title">{{ c.title }}</div>
-				<div class="index">{{ c.index }}</div>
+				<div class="index">
+					<div v-for="(q, i) in c.questions" class="question">
+						{{ '[' + (i + 1) + '] ' + q }}
+					</div>
+					{{ c.index }}
+				</div>
 			</NuxtLink>
 		</div>
 	</main>
@@ -74,7 +94,7 @@
 			flex-direction: column;
 			justify-content: space-between;
 			& > a {
-				/* padding: var(--space-s); */
+				padding: var(--space-s);
 				display: flex;
 				flex-direction: column;
 				justify-content: space-between;
@@ -87,10 +107,22 @@
 					font-family: 'Office-Medium';
 					font-size: var(--type-xs);
 					margin-top: var(--space-m);
+					color: var(--color2);
+					line-height: 110%;
+					text-transform: uppercase;
+					& > .question {
+						opacity: 0;
+					}
 				}
 				border: var(--color3) 1px solid;
 				&:hover {
 					border: var(--color2) 1px solid;
+
+					& > .index {
+						& > .question {
+							opacity: 1;
+						}
+					}
 				}
 			}
 

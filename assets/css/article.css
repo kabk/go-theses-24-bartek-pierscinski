@@ -63,6 +63,7 @@
 				max-width: calc((100vw - 4 * var(--space-m)) / 4 * 2);
 				margin-left: calc((100vw - 4 * var(--space-m)) / 4 * 1);
 				margin-bottom: 0.5em;
+
 				cursor: none;
 				&:hover {
 					outline: var(--color2) solid 1px;
@@ -93,6 +94,13 @@
 
 				& > .word {
 					position: relative;
+					& > .note {
+						vertical-align: super;
+						font-size: var(--type-xs);
+						background-color: var(--color4);
+						color: black;
+						border: var(--color3);
+					}
 					&:hover {
 						background-color: var(--color4);
 						color: black;
@@ -224,6 +232,7 @@
 				text-transform: uppercase;
 				color: var(--color3);
 				opacity: 0;
+				line-height: 110%;
 			}
 
 			&:hover {

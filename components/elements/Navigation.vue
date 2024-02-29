@@ -3,14 +3,22 @@
 		<NuxtLink v-if="nav.prev" :to="nav.prev.path" class="prev">
 			<div class="label">PREV</div>
 			<div class="title univers -type-m">{{ nav.prev.title }}</div>
-			<div class="questions">{{ nav.prev.type }}</div>
+			<div v-if="nav.prev.questions" class="questions">
+				<div v-for="(q, i) in nav.prev.questions" class="question">
+					{{ '[' + (i + 1) + '] ' + q }}
+				</div>
+			</div>
 		</NuxtLink>
 		<NuxtLink v-if="nav.next" :to="nav.next.path" class="next">
 			<div class="label">NEXT</div>
 			<div class="title univers -type-m">
 				{{ nav.next.title }}
 			</div>
-			<div class="questions">{{ nav.next.type }}</div>
+			<div v-if="nav.next.questions" class="questions">
+				<div v-for="(q, i) in nav.next.questions" class="question">
+					{{ '[' + (i + 1) + '] ' + q }}
+				</div>
+			</div>
 		</NuxtLink>
 	</nav>
 </template>

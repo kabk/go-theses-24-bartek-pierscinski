@@ -32,6 +32,7 @@
 					movies and how, in fact, at the end of the day only singular scenes
 					remain in a viewer’s memory after a visit to a cinema.
 				</p>
+
 				<p>
 					I find those ideas and the emphasis on the scenes as another a spot-on
 					illustration to the “Database Cinema” theory. It is important to think
@@ -42,6 +43,15 @@
 					Korine admits to the usage of cue cards in the process of writing
 					“Gummo”, to even stronger emphasize his prioritization of scenes.
 				</p>
+				<iframe
+					:width="(width / 4) * 3 - 40"
+					:height="(((width / 4) * 3 - 40) * 9) / 16"
+					src="https://www.youtube.com/embed/hu8aBTYq3Hc?si=erNZAl8kEqxgd1Es"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+				></iframe>
 				<p>
 					A striking example of the application of Korine’s scene-based approach
 					can be found in the script for his 1999 feature film “julien
@@ -74,14 +84,32 @@
 				</p>
 			</div>
 			<div class="refs">
-				<!-- <ref>
+				<ref>
 					<div class="index">[1.1]</div>
 					<div class="content">
-						Kohn, Eric. “Nashville. Harmony’s House. Present Day.”, Harmony
-						Korine Interviews, Edited by Eric Kohn, University Press of
-						Missisipi, 2015, pp. 90-95.
+						“Director Harmony Korine in Conversation at the Gucci Hub.”
+						Interview by Aron Rose, YouTube, 19 June 2019,
+						<a href="http://www.youtube.com/watch?v=hu8aBTYq3Hc, 8:15-13:40"
+							>www.youtube.com/watch?v=hu8aBTYq3Hc, 8:15-13:40</a
+						>
+						.
 					</div>
-				</ref> -->
+				</ref>
+				<ref>
+					<div class="index">[1.2]</div>
+					<div class="content">
+						Kraus, Daniel. “Complete Harmony.”, Harmony Korine Interviews,
+						Edited by Eric Kohn, University Press of Missisipi, 2015, pp.
+						96-106.
+					</div>
+				</ref>
+				<ref>
+					<div class="index">[1.3]</div>
+					<div class="content">
+						Manovich, Lev. “Database as a Symbolic Form.” The Language of New
+						Media, The MIT Press, Cambridge, Massachusetts, 2001.
+					</div>
+				</ref>
 			</div>
 		</main>
 		<ElementsNavigation :current="currentRoute.path"></ElementsNavigation>

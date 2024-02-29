@@ -71,20 +71,23 @@
 				<ref>
 					<div class="index">[1.1]</div>
 					<div class="content">
-						Kohn, Eric. “Nashville. Harmony’s House. Present Day.”, Harmony
-						Korine Interviews, Edited by Eric Kohn, University Press of
-						Missisipi, 2015, pp. 90-95.
+						Korine, Harmony. “A Crack-Up at the Race Riots.” Drag City, 2013.
 					</div>
 				</ref>
 				<ref>
 					<div class="index">[1.2]</div>
 					<div class="content">
-						Szejnach, Piotr. “Oskar Dawicki w swoim mieszkaniu-pracowni, jak
-						mówi: w swym ‘cenotafie’”, Warszawa, 2013 rok.
-						<a
-							href="https://magazynszum.pl/wp-content/uploads/2023/09/64-dawicki-oskar-2013-scaled.jpg"
-							>https://magazynszum.pl/wp-content/uploads/2023/09/64-dawicki-oskar-2013-scaled.jpg</a
-						>
+						“Amazon.com: A Crack-up at the Race Riots.” Amazon,
+						<a href="http://www.amazon.com/Crack-Up-at-Race-Riots/dp/1937112101"
+							>www.amazon.com/Crack-Up-at-Race-Riots/dp/1937112101</a
+						>. Accessed 24 Feb. 2024.
+					</div>
+				</ref>
+				<ref>
+					<div class="index">[1.3]</div>
+					<div class="content">
+						Wall, Thomas Carl. “‘Dolce Stil Novo’: Harmony Korine’s Vernacular.”
+						CR: The New Centennial Review, vol. 4, no. 1, 2004, pp. 307–21.
 					</div>
 				</ref>
 			</div>

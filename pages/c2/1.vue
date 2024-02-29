@@ -37,27 +37,7 @@
 					visual narratives in the post-branding era.
 				</p>
 			</div>
-			<div class="refs">
-				<ref>
-					<div class="index">[1.1]</div>
-					<div class="content">
-						Kohn, Eric. “Nashville. Harmony’s House. Present Day.”, Harmony
-						Korine Interviews, Edited by Eric Kohn, University Press of
-						Missisipi, 2015, pp. 90-95.
-					</div>
-				</ref>
-				<ref>
-					<div class="index">[1.2]</div>
-					<div class="content">
-						Szejnach, Piotr. “Oskar Dawicki w swoim mieszkaniu-pracowni, jak
-						mówi: w swym ‘cenotafie’”, Warszawa, 2013 rok.
-						<a
-							href="https://magazynszum.pl/wp-content/uploads/2023/09/64-dawicki-oskar-2013-scaled.jpg"
-							>https://magazynszum.pl/wp-content/uploads/2023/09/64-dawicki-oskar-2013-scaled.jpg</a
-						>
-					</div>
-				</ref>
-			</div>
+			<div class="refs"></div>
 		</main>
 		<ElementsNavigation :current="currentRoute.path"></ElementsNavigation>
 	</div>
