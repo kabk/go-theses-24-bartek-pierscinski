@@ -40,12 +40,19 @@
 				<p>
 					What follows is according to the introduction—a short script, of which
 					every “chapter” begins with a joke told by the main character of the
-					following story. The stories: tautly constructed, highly imaginative
-					and show his intuitive sense for emotion, tenderness, and of course
-					the bizarre. The result: intriguing, thought-provoking and shocking
-					journey leaving the viewer with more questions than answers. As a
-					movie should and as life always does—claims Korine.
+					following story [FIG]. The stories: tautly constructed, highly
+					imaginative and show his intuitive sense for emotion, tenderness, and
+					of course the bizarre. The result: intriguing, thought-provoking and
+					shocking journey leaving the viewer with more questions than answers.
+					As a movie should and as life always does—claims Korine.
 				</p>
+				<figure>
+					<img src="/content/c/7/jokes-scan.jpg" alt="" />
+					<figcaption>
+						The first page of the 'jokes' screenplay. The first of three jokes
+						is introduced and the story begins.
+					</figcaption>
+				</figure>
 				<p>
 					In this particular example, it’s interesting to think about the script
 					as a translation of the narrative style of Henny Youngman's

@@ -69,6 +69,12 @@
 						written scenes have no particular order.
 					</div>
 				</blockquote>
+				<figure>
+					<img src="/content/c/9/julien-scan.jpg" alt="" />
+					<figcaption>
+						The list of scenes from the 'jokes' screenplay
+					</figcaption>
+				</figure>
 				<p>
 					In the same interview at the Gucci Hub, Korine opens up even more
 					about his approach to filming/performing the pre-written scenes. Still
