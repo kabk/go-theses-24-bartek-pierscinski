@@ -35,7 +35,7 @@
 					design, the products of the advertising agencies only ascertain the
 					homogeneity and call-to-lack-of-action issued by the corporations,
 					seemingly motivated by ideas of originality and creativity. I enjoyed
-					burying myself in the text of Jason Grant and Oliver Vodeb, which
+					burying myself in the text of Jason Grant and Oliver Vodeb[1], which
 					really swiftly ridicules the enterprises of those companies.
 				</p>
 				<p>
@@ -56,7 +56,7 @@
 			</div>
 			<div class="refs">
 				<ref>
-					<div class="index">[1.1]</div>
+					<div class="index">[1]</div>
 					<div class="content">
 						Grant, Jason. Vodeb, Oliver. “What Is Post-Branding?: How to Counter
 						Fundamentalist Marketplace Semiotics” Set Margins' publications,

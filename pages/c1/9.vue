@@ -25,8 +25,8 @@
 					the connection between his oeuvre and the database–narrative ideas
 					that drive this text. Never once expressing his realization about him
 					repeating himself on this topic in every single interview, Korine
-					keeps bringing up his views on the scene’s superiority over the plot.
-					He sometimes rationalizes this by explaining this ideology’s
+					keeps bringing up his views on the scene’s superiority over the
+					plot[1]. He sometimes rationalizes this by explaining this ideology’s
 					resemblance to the ideology of life in general, but also by how
 					focusing on scenes relates to the implicit marketing pragmatics of
 					movies and how, in fact, at the end of the day only singular scenes
@@ -35,13 +35,14 @@
 
 				<p>
 					I find those ideas and the emphasis on the scenes as another a spot-on
-					illustration to the “Database Cinema” theory. It is important to think
-					about the scenes of a Korine script like photographs, because after
-					writing a voluminous database of those, the editing process becomes
-					the process of selecting the best and putting them into the script
-					like into a photobook. In a 2019 interview at the Gucci Hub in Milan,
-					Korine admits to the usage of cue cards in the process of writing
-					“Gummo”, to even stronger emphasize his prioritization of scenes.
+					illustration to the “Database Cinema” theory[2]. It is important to
+					think about the scenes of a Korine script like photographs, because
+					after writing a voluminous database of those, the editing process
+					becomes the process of selecting the best and putting them into the
+					script like into a photobook. In a 2019 interview at the Gucci Hub in
+					Milan[3], Korine admits to the usage of cue cards in the process of
+					writing “Gummo”, to even stronger emphasize his prioritization of
+					scenes.
 				</p>
 				<iframe
 					:width="(width / 4) * 3 - 40"
@@ -55,7 +56,7 @@
 				<p>
 					A striking example of the application of Korine’s scene-based approach
 					can be found in the script for his 1999 feature film “julien
-					donkey-boy”. Uncovered only to those who buy the “Collected
+					donkey-boy”[4]. Uncovered only to those who buy the “Collected
 					Screenplays 1” book, the “instruction” to the understanding of the
 					script reads:
 				</p>
@@ -85,7 +86,21 @@
 			</div>
 			<div class="refs">
 				<ref>
-					<div class="index">[1.1]</div>
+					<div class="index">[1]</div>
+					<div class="content">
+						Kohn, Eric. "Harmony Korine Interviews." University Press of
+						Missisipi, 2015.
+					</div>
+				</ref>
+				<ref>
+					<div class="index">[2]</div>
+					<div class="content">
+						Manovich, Lev. “Database Cinema.” The Language of New Media, The MIT
+						Press, Cambridge, Massachusetts, 2001.
+					</div>
+				</ref>
+				<ref>
+					<div class="index">[3]</div>
 					<div class="content">
 						“Director Harmony Korine in Conversation at the Gucci Hub.”
 						Interview by Aron Rose, YouTube, 19 June 2019,
@@ -96,18 +111,10 @@
 					</div>
 				</ref>
 				<ref>
-					<div class="index">[1.2]</div>
+					<div class="index">[4]</div>
 					<div class="content">
-						Kraus, Daniel. “Complete Harmony.”, Harmony Korine Interviews,
-						Edited by Eric Kohn, University Press of Missisipi, 2015, pp.
-						96-106.
-					</div>
-				</ref>
-				<ref>
-					<div class="index">[1.3]</div>
-					<div class="content">
-						Manovich, Lev. “Database as a Symbolic Form.” The Language of New
-						Media, The MIT Press, Cambridge, Massachusetts, 2001.
+						Korine, Harmony. “julien donkey-boy.” Collected Screenplays 1, Faber
+						and Faber, 2002.
 					</div>
 				</ref>
 			</div>

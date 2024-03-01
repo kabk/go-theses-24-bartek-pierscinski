@@ -18,7 +18,7 @@
 					This text is a conceptual exploration where the boundaries between
 					database aesthetics and narrative theories converge in an index of
 					interconnected ideas. The web-based reader navigates the multifaceted
-					world of Lev Manovich's theories and the works of filmmakers and
+					world of Lev Manovich's theories [1] and the works of filmmakers and
 					creatives, exploring the symbiosis between database aesthetics and
 					narrative structures. Within this space, the text unfolds in a series
 					of subchapters, each contributing a unique facet to the overarching
@@ -53,7 +53,7 @@
 			</div>
 			<div class="refs">
 				<ref>
-					<div class="index">[1.1]</div>
+					<div class="index">[1]</div>
 					<div class="content">
 						Manovich, Lev. “Database as a Symbolic Form.” The Language of New
 						Media, The MIT Press, Cambridge, Massachusetts, 2001.

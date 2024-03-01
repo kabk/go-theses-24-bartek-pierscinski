@@ -53,8 +53,8 @@
 		{
 			"title": "Manovich on Greenaway and Vertov",
 			"path": "/c1/5",
-			"type": "chapter",
-			"index": "C1.5",
+			"type": "fig",
+			"index": "FIG1",
 			"questions": [
 				"What exactly are the methods used by Greenaway and Vertov?"
 			]
@@ -82,8 +82,8 @@
 		{
 			"title": "A Collection of Harmony Korine’s statements on scenes and plots",
 			"path": "/c1/8",
-			"type": "chapter",
-			"index": "C1.8"
+			"type": "fig",
+			"index": "FIG2"
 		},
 		{
 			"title": "Scenes and characters as the focus point and the neglecting of the plot",
@@ -99,25 +99,57 @@
 			"title": "Database Aesthetics and Post-Branding in Contemporary Design",
 			"path": "/c2/1",
 			"type": "chapter",
-			"index": "C2.1"
+			"index": "C2.1",
+			"questions": [
+				"What is the relevance of database aesthetics in contemporary design?"
+			]
 		},
 		{
 			"title": "The impact of The Brand",
 			"path": "/c2/2",
 			"type": "chapter",
-			"index": "C2.2"
+			"index": "C2.2",
+			"questions": [
+				"What is another kind of power steering contepmorary aesthetics and communication design?",
+				"What are certain distinct features of creative works in the realm of advertising and marketing?"
+			]
 		},
 		{
 			"title": "Benefits of Characterization",
 			"path": "/c2/3",
 			"type": "chapter",
-			"index": "C2.3"
+			"index": "C2.3",
+			"questions": [
+				"How to fight the problem of the advertising market being a breeding ground of interchangable cliches?",
+				"What are some creative methods for activating the viewer and creating engaging brand experiences?"
+			]
 		},
 		{
-			"title": "About Stussy Holiday 23”",
+			"title": "About “Stussy Holiday 23” by Francis Plummer",
 			"path": "/c2/4",
 			"type": "chapter",
-			"index": "C2.4"
+			"index": "C2.4",
+			"questions": [
+				"In what way does the introduction of concrete characters deepen the viewers understanding of the brand?"
+			]
+		},
+		{
+			"title": "About Parco Japan 2020 Spring/Summer Campaign",
+			"path": "/c2/5",
+			"type": "chapter",
+			"index": "C2.5",
+			"questions": [
+				"What are the potentials of leveraging the artistic aspect of the advertising campaign medium?"
+			]
+		},
+		{
+			"title": "About “Gucci Cruise 2020” by Harmony Korine",
+			"path": "/c2/6",
+			"type": "chapter",
+			"index": "C2.6",
+			"questions": [
+				"What else can be learned from the oeuvre of Harmony Korine, specifically from his rare instances of commercial work?"
+			]
 		}
 	]
 }

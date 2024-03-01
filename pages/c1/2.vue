@@ -84,13 +84,13 @@
 					He claims that new media reverses the traditional narrative–database
 					relationship present in the old media, such as novels or traditional
 					cinema—database (the paradigmatic aspect) suddenly becomes tangible,
-					concrete, while narrative (the syntagmatic aspect) is de-materialized.
-					This finds a great application in Korine’s book. The database, so, in
-					this case, the contents of Korine's hyperactive mind are given a
-					material existence as printed words on paper, while the narrative
+					concrete, while narrative (the syntagmatic aspect) is de-materialized
+					[1]. This finds a great application in Korine’s book. The database,
+					so, in this case, the contents of Korine's hyperactive mind are given
+					a material existence as printed words on paper, while the narrative
 					(which in a traditional novel would be THE explicit, tangible thing)
 					can only exist in the viewer’s imagination, becomes somehow the
-					responsibility of the viewer.
+					responsibility of the viewer [2].
 				</p>
 
 				<p>
@@ -99,20 +99,34 @@
 					already is, compared to, say, a movie). It favors the database
 					structure and allows for its reading from all kinds of different
 					directions and sequences. It is truly more of a sort of an
-					encyclopedia than it is a novel. There is no indexing or lineage other
-					than the sequence of the pages and the arrangement of the book into
-					two chapters. In Manovich’s words: there is no algorithm, no explicit,
-					direct interface that allows for structured navigation of the database
-					to the viewer. The viewer is welcome to create their own.
+					encyclopedia than it is a novel [3]. There is no indexing or lineage
+					other than the sequence of the pages and the arrangement of the book
+					into two chapters. In Manovich’s words: there is no algorithm, no
+					explicit, direct interface that allows for structured navigation of
+					the database to the viewer. The viewer is welcome to create their own.
 				</p>
 			</div>
 			<div class="refs">
 				<ref>
-					<div class="index">[1.1]</div>
+					<div class="index">[1]</div>
 					<div class="content">
-						Kohn, Eric. “Nashville. Harmony’s House. Present Day.”, Harmony
-						Korine Interviews, Edited by Eric Kohn, University Press of
-						Missisipi, 2015, pp. 90-95.
+						Barthes, Roland. "Elements of Semiology." Hill and Wang a Division
+						of Farrar Straus and Giroux, 1977.
+					</div>
+				</ref>
+				<ref>
+					<div class="index">[2]</div>
+					<div class="content">
+						O'Hagan, Sean. “Here's looking at you kid.”, Harmony Korine
+						Interviews, Edited by Eric Kohn, University Press of Missisipi,
+						2015, pp. 63-74.
+					</div>
+				</ref>
+				<ref>
+					<div class="index">[3]</div>
+					<div class="content">
+						Mieke, Bal. Van Boheemen, Christine. "Narratology : Introduction to
+						the Theory of Narrative". 3rd ed. University of Toronto Press 2009.
 					</div>
 				</ref>
 			</div>

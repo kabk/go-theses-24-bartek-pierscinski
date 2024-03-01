@@ -19,7 +19,7 @@
 				<p>
 					Funnily enough, the aforementioned Manovich’s article about the
 					database-narrative approach continues with a subchapter about
-					“Database Cinema”—a description of certain filmmakers’ attempts at
+					“Database Cinema”[1]—a description of certain filmmakers’ attempts at
 					creating non-linear, interactive, implicit narratives using this
 					specific medium. It points out the obsoleteness of the modernist
 					notion of medium specificity, about how every medium should develop
@@ -73,7 +73,7 @@
 			</div>
 			<div class="refs">
 				<ref>
-					<div class="index">[1.1]</div>
+					<div class="index">[1]</div>
 					<div class="content">
 						Manovich, Lev. “Database Cinema.” The Language of New Media, The MIT
 						Press, Cambridge, Massachusetts, 2001.

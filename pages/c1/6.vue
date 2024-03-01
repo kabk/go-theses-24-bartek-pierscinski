@@ -29,11 +29,11 @@
 					is distinguished by his comprehensive authorship, assuming roles as
 					both the writer and director of his films. Notably, he employs an
 					experimental approach in shaping characters and narratives within his
-					cinematic works. In one movie of his, “Palindromes” (2004), the main
-					twist is that the central character  a twelve/thirteen-year-old girl 
-					is played quite convincingly by a wide array of characters that are
-					physically very different (black/white, obese/skinny, young/old, and
-					in one incarnation even a young boy).
+					cinematic works[1]. In one movie of his, “Palindromes” (2004), the
+					main twist is that the central character  a twelve/thirteen-year-old
+					girl  is played quite convincingly by a wide array of characters that
+					are physically very different (black/white, obese/skinny, young/old,
+					and in one incarnation even a young boy).
 				</p>
 				<p>
 					The Solondz’s movie that I would like to expand on is “Storytelling”
@@ -67,7 +67,7 @@
 					difficult questions using shocking and radical examples of stories
 					that feel “real” and provide sophisticated insight and engage the
 					spectator in a complex way with the racial, sexual and social themes
-					that overarch the narrative.
+					that overarch the narrative[2].
 				</p>
 				<p>
 					In the context of this study, Solondz's experimental narrative
@@ -82,23 +82,7 @@
 			</div>
 			<div class="refs">
 				<ref>
-					<div class="index">[1.1]</div>
-					<div class="content">
-						Metz, Walter. “Woody’s Melindas and Todd’s Stories: Complex Film
-						Narratives in the Light of Literary Modernism.” Film Criticism, vol.
-						31, no. 1/2, 2006, pp. 107–31.
-					</div>
-				</ref>
-				<ref>
-					<div class="index">[1.2]</div>
-					<div class="content">
-						Berg, Charles Ramírez. “A Taxonomy of Alternative Plots in Recent
-						Films: Classifying the ‘Tarantino Effect.’” Film Criticism, vol. 31,
-						no. 1/2, 2006, pp. 5–61.
-					</div>
-				</ref>
-				<ref>
-					<div class="index">[1.3]</div>
+					<div class="index">[1]</div>
 					<div class="content">
 						Conn, Andrew Lewis. “The Bad Review ‘Happiness’ Deserves Or: The
 						Tyranny of Critic-Proof Movies.” Film Comment, vol. 35, no. 1, 1999,
@@ -106,13 +90,21 @@
 					</div>
 				</ref>
 				<ref>
-					<div class="index">[1.3]</div>
+					<div class="index">[2]</div>
 					<div class="content">
 						Metz, Walter. “Woody’s Melindas and Todd’s Stories: Complex Film
 						Narratives in the Light of Literary Modernism.” Film Criticism, vol.
 						31, no. 1/2, 2006, pp. 107–31.
 					</div>
 				</ref>
+				<!-- <ref>
+					<div class="index">[2]</div>
+					<div class="content">
+						Berg, Charles Ramírez. “A Taxonomy of Alternative Plots in Recent
+						Films: Classifying the ‘Tarantino Effect.’” Film Criticism, vol. 31,
+						no. 1/2, 2006, pp. 5–61.
+					</div>
+				</ref> -->
 			</div>
 		</main>
 		<ElementsNavigation :current="currentRoute.path"></ElementsNavigation>

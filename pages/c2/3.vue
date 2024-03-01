@@ -41,27 +41,15 @@
 					rest of the same kind (in the aesthetical, formal, or conceptual
 					dimensions), I suggest an introduction of a character or characters in
 					the other meaning. According to the theory brought forward by Ira
-					Newman in “Virtual People: Fictional Characters through the Frames of
-					Reality”—a character simply as a person occupying a place in a
+					Newman[1]—a character simply as a person occupying a place in a
 					narrative.
 				</p>
+
 				<p>
-					Seeing this video after reading about Manovich’s “Database Logic”, I
-					connected the dots (pun intended) and realized the obvious: Korine’s
-					method is simply an exact, dumbed-down illustration to Manovich’s
-					theories about the database as a basis of the narrative and
-					syntagmatic aspects of database instances. In the video, we see that
-					from this specific database of words Korine (but possibly also
-					virtually anyone else) unveils the potential and implicit narrative.
-					Despite the visual “interface” of the database, the diagram has a
-					“random-access” form and therefore the role of decoding it and
-					extracting the syntagmatic links remains on the “user”.
-				</p>
-				<p>
-					The method I suggest in this text is looking at specific examples of
-					creative campaigns that harness the wide scope of possibilities
-					provided by the deliberate usage of database aesthetics, storytelling
-					and characterization. I would like to take a closer look at works that
+					The method I suggest is looking at specific examples of creative
+					campaigns that harness the wide scope of possibilities provided by the
+					deliberate usage of database aesthetics, storytelling and
+					characterization. I would like to take a closer look at works that
 					take on this seemingly ridiculous strategy to—as a result—enable
 					interactive, engaging, and customized brand experiences in design,
 					transforming our perception and interaction with visual narratives.
@@ -89,7 +77,7 @@
 			</div>
 			<div class="refs">
 				<ref>
-					<div class="index">[1.1]</div>
+					<div class="index">[1]</div>
 					<div class="content">
 						Newman, Ira. “Virtual People: Fictional Characters through the
 						Frames of Reality.” The Journal of Aesthetics and Art Criticism,

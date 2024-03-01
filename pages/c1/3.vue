@@ -32,8 +32,8 @@
 					allowfullscreen
 				></iframe>
 				<p>
-					In the legendary status YouTube video Korine is being interviewed by
-					Chase Whale (or rather Chase Whale is unsuccessfully attempting to
+					In the legendary status YouTube video[1] Korine is being interviewed
+					by Chase Whale (or rather Chase Whale is unsuccessfully attempting to
 					interview him). Right at the beginning Korine completely ignores a
 					question about his latest movie “Thrash Humpers” and says “Well,
 					first, one second… I’m gonna draw some dots!”. He then proceeds to
@@ -97,7 +97,7 @@
 			</div>
 			<div class="refs">
 				<ref>
-					<div class="index">[1.2]</div>
+					<div class="index">[1]</div>
 					<div class="content">
 						Whale, Chase. “Harmony Korine SXSW 2011 Interview with Chase Whale”
 						YouTube, 9 Sep. 2012,

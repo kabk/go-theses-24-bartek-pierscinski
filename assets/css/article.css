@@ -23,7 +23,6 @@
 				max-width: calc((100vw - 4 * var(--space-m)) / 4 * 3);
 			}
 			margin: 0 var(--space-m);
-			/* padding-top: 0.4em; */
 			margin-bottom: 7vw;
 			text-wrap: balance;
 			width: max-content;
@@ -160,11 +159,8 @@
 			}
 
 			& > figure {
-				/* border-left: darkgrey 10px solid; */
-				/* border-right: var(--color) 1px solid; */
 				margin-bottom: 1em;
 				max-width: calc((100vw - 4 * var(--space-m)) / 4 * 4);
-				/* padding-right: calc((100vw - 4 * var(--space-m)) / 4 * 1); */
 				background-color: black;
 				& > figcaption {
 					font-family: 'Office-Medium';
@@ -247,6 +243,9 @@
 			min-width: 48vw;
 			padding-left: var(--space-m);
 			padding-bottom: var(--space-m);
+			display: flex;
+			flex-direction: column;
+			gap: var(--space-m);
 			& > .label {
 				font-size: var(--type-xs);
 				font-family: 'Office-Medium';
@@ -255,6 +254,7 @@
 
 			& > .title {
 				text-wrap: balance;
+				padding-top: 0;
 			}
 
 			& > .questions {
@@ -264,6 +264,7 @@
 				color: var(--color3);
 				opacity: 0;
 				line-height: 110%;
+				max-width: 50ch;
 			}
 
 			&:hover {

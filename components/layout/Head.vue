@@ -1,10 +1,8 @@
 <template>
 	<header>
-		<section class="title univers -type-l">
-			When you talk about someone, they instantly become special, because they
-			are a hero of the tale…
+		<section class="header-title univers -type-l">
+			Database aesthetics: into fragmented narratives and post-brandinng
 		</section>
-		<nav></nav>
 	</header>
 </template>
 
@@ -15,9 +13,10 @@
 </script>
 
 <style lang="postcss" scoped>
-	.title {
+	.header-title {
 		max-width: 30ch;
 		color: var(--color4);
 		user-select: none;
+		text-wrap: balance;
 	}
 </style>

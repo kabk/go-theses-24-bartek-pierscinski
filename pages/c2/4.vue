@@ -3,9 +3,7 @@
 		<NuxtLink to="/" class="close">CLOSE</NuxtLink>
 		<header class="">
 			<div class="title">
-				<div class="univers -type-l">
-					“Database Cinema”—Alternative narrative methods in film
-				</div>
+				<div class="univers -type-l">About Stussy “Holiday '23”</div>
 				<div class="questions">
 					<div v-for="(q, i) in questions" class="question">
 						{{ '[' + (i + 1) + '] ' + q }}
@@ -17,21 +15,11 @@
 		<main>
 			<div class="content">
 				<p>
-					Funnily enough, the aforementioned Manovich’s article about the
-					database-narrative approach continues with a subchapter about
-					“Database Cinema”—a description of certain filmmakers’ attempts at
-					creating non-linear, interactive, implicit narratives using this
-					specific medium. It points out the obsoleteness of the modernist
-					notion of medium specificity, about how every medium should develop
-					its own unique language, and states that the contemporary cultural
-					climate demands the reevaluation of cinema as a medium prioritizing
-					narrative (through time-based sequencing as opposed to e.g.
-					photography as a medium prioritizing database—through existing mostly
-					as part of random-access mediums, such as catalogs, taxonomies, and
-					lists). Given the new dominance of the database with the introduction
-					of digital media and the internet, there comes up a possibility of
-					arriving at new narrative methods that take into account that its
-					elements are database instances.
+					if it doesn’t make sense to you then i dont imagine that the brand
+					itself makes sense to you. Not everything is about selling. Stussy
+					makes countless marketing spots like this with no other purpose then
+					to make people laugh, go “he he i like that” and thats it. This is one
+					of the most perfect of those yet. Subtle and beautiful.
 				</p>
 				<iframe
 					src="https://player.vimeo.com/video/891906551?h=0b25ef0bff"
@@ -41,23 +29,7 @@
 					allow="autoplay; fullscreen; picture-in-picture"
 					allowfullscreen
 				></iframe>
-				<p>
-					He cites Peter Greenaway and Dziga Vertov as two practitioners of the
-					methods that work to sabotage the idea of a “plot” and emphasize the
-					potential of the database–narrative symbiosis. With Greenaway,
-					Manovich points to his methods of using certain systems of pretty much
-					just making sense of the sequencing of the recorded video material.
-					With Vertov, who Manovich calls a “database filmmaker”, there is an
-					interesting way of “activating” the usually static form of the
-					database into something more dynamic and spirited. Vertov’s methods
-					include for example a meta-narrative technique of beginning the movie
-					by filming the editing room and particular captioned shelves with
-					numbered and catalogued shot material. Vertov’s relevance to new media
-					is the creation of new meaningful visual language for film through the
-					means of a particular argumentation of the sequencing and manipulation
-					of seemingly unrelated clips—he merges database and narrative into a
-					new form.
-				</p>
+
 				<!-- <figure>
 					<img src="/content/c/1/drama.png" alt="" />
 					<figcaption>
