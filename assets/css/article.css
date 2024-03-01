@@ -47,8 +47,9 @@
 			}
 
 			@media screen and (max-width: 600px) {
+				outline: var(--color3) 1px solid;
 				& > .questions {
-					opacity: 1;
+					opacity: 1 !important;
 				}
 			}
 			& > .questions {
@@ -57,7 +58,7 @@
 				max-width: 60ch;
 				text-transform: uppercase;
 				opacity: 0;
-				font-size: 80%;
+				font-size: var(--type-xs);
 				line-height: 110%;
 			}
 		}
@@ -82,7 +83,8 @@
 				margin-left: calc((100vw - 4 * var(--space-m)) / 4 * 1);
 				margin-bottom: 0.5em;
 				@media screen and (max-width: 600px) {
-					max-width: calc((100vw - 4 * var(--space-m)) / 4 * 3);
+					max-width: calc((100vw - 4 * var(--space-m)) / 4 * 4);
+					margin-left: 0;
 				}
 				cursor: none;
 				&:hover {
@@ -116,6 +118,7 @@
 					&:before {
 						max-width: 15ch;
 						overflow: hidden;
+						display: none !important;
 					}
 				}
 
@@ -155,6 +158,12 @@
 						padding: 1px;
 						outline: var(--color3) solid 1px;
 					}
+
+					@media screen and (max-width: 600px) {
+						&:after {
+							display: none !important;
+						}
+					}
 				}
 			}
 
@@ -171,6 +180,9 @@
 					background-color: black;
 					max-width: calc((100vw - 4 * var(--space-m)) / 4 * 1);
 					text-transform: uppercase;
+					@media screen and (max-width: 600px) {
+						max-width: calc((100vw - 4 * var(--space-m)) / 4 * 4);
+					}
 					&::before {
 						content: '[FIG] ';
 					}
@@ -188,8 +200,10 @@
 				line-height: 100%;
 				margin-top: 0.5em;
 				margin-bottom: 1em;
+
 				@media screen and (max-width: 600px) {
-					max-width: calc((100vw - 4 * var(--space-m)) / 4 * 3);
+					max-width: calc((100vw - 4 * var(--space-m)) / 4 * 4);
+					margin-left: 0;
 				}
 				& > .caption {
 					font-family: 'Office-Medium';

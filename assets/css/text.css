@@ -60,9 +60,10 @@
 
 @media screen and (max-width: 600px) {
 	:root {
-		--type-s: 15px;
+		--type-xs: calc(var(--type-s) * 0.65);
+		--type-s: 17px;
 		--type-m: 4.5vw;
-		--type-l: 6.5vw;
+		--type-l: 5vw;
 		--type-xl: 9vw;
 	}
 }

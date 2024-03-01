@@ -23,8 +23,12 @@
 					use.
 				</p>
 				<iframe
-					:width="(width / 4) * 3 - 40"
-					:height="(((width / 4) * 3 - 40) * 9) / 16"
+					:width="!mobile ? (width / 4) * 3 - 40 : (width / 4) * 4 - 40"
+					:height="
+						!mobile
+							? (((width / 4) * 3 - 40) * 9) / 16
+							: (((width / 4) * 4 - 40) * 9) / 16
+					"
 					src="https://www.youtube.com/embed/Fb0ny1g_pC0?si=H2E_C1-TVTWIWpiw"
 					title="YouTube video player"
 					frameborder="0"
@@ -118,6 +122,7 @@
 	})
 
 	const { width } = useWindowSize()
+	const { mobile } = useScreenSize()
 
 	const { currentRoute } = useRouter()
 	const questions = await getQuestions(currentRoute.value.path)

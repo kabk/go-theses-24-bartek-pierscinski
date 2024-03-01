@@ -23,8 +23,22 @@
 				</p>
 				<iframe
 					src="https://player.vimeo.com/video/891906551?h=0b25ef0bff"
-					:width="(width / 4) * 3 - 40"
-					:height="(((width / 4) * 3 - 40) * 3) / 4"
+					:width="
+						!mobile
+							? !mobile
+								? (width / 4) * 3 - 40
+								: (width / 4) * 4 - 40
+							: (width / 4) * 4 - 40
+					"
+					:height="
+						((!mobile
+							? !mobile
+								? (width / 4) * 3 - 40
+								: (width / 4) * 4 - 40
+							: (width / 4) * 4 - 40) *
+							3) /
+						4
+					"
 					frameborder="0"
 					allow="autoplay; fullscreen; picture-in-picture"
 					allowfullscreen

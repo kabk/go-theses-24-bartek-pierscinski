@@ -45,8 +45,22 @@
 					scenes.
 				</p>
 				<iframe
-					:width="(width / 4) * 3 - 40"
-					:height="(((width / 4) * 3 - 40) * 9) / 16"
+					:width="
+						!mobile
+							? !mobile
+								? (width / 4) * 3 - 40
+								: (width / 4) * 4 - 40
+							: (width / 4) * 4 - 40
+					"
+					:height="
+						((!mobile
+							? !mobile
+								? (width / 4) * 3 - 40
+								: (width / 4) * 4 - 40
+							: (width / 4) * 4 - 40) *
+							9) /
+						16
+					"
 					src="https://www.youtube.com/embed/hu8aBTYq3Hc?si=erNZAl8kEqxgd1Es"
 					title="YouTube video player"
 					frameborder="0"
