@@ -38,6 +38,13 @@
 					burying myself in the text of Jason Grant and Oliver Vodeb[1], which
 					really swiftly ridicules the enterprises of those companies.
 				</p>
+				<figure>
+					<img src="/content/c/2/brand-scan.jpg" alt="" />
+					<figcaption>
+						An illustration from “What Is Post-Branding?: How to Counter
+						Fundamentalist Marketplace Semiotics”
+					</figcaption>
+				</figure>
 				<p>
 					I see contemporary visual communication and branding as an art form
 					that has the most impact on our lives personally (personal branding,
