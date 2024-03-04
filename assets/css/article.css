@@ -91,6 +91,7 @@
 				max-width: calc((100vw - 4 * var(--space-m)) / 4 * 2);
 				margin-left: calc((100vw - 4 * var(--space-m)) / 4 * 1);
 				margin-bottom: 0.5em;
+				cursor: default;
 				@media screen and (max-width: 600px) {
 					max-width: calc((100vw - 4 * var(--space-m)) / 4 * 4);
 					margin-left: 0;
