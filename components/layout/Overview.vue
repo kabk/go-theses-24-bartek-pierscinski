@@ -47,7 +47,7 @@
 		</div>
 		<div class="col">
 			<NuxtLink
-				v-for="c in getEls(chapters.arr, 12, 15)"
+				v-for="c in getEls(chapters.arr, 12, 16)"
 				:to="c.path"
 				:class="[c.type]"
 			>

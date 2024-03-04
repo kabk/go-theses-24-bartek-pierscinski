@@ -149,6 +149,12 @@
 			"questions": [
 				"What else can be learned from the oeuvre of Harmony Korine, specifically from his rare instances of commercial work?"
 			]
+		},
+		{
+			"title": "Conclusion",
+			"path": "/c2/7",
+			"type": "chapter",
+			"index": "CONCLUSION"
 		}
 	]
 }
