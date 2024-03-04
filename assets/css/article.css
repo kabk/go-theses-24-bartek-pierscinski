@@ -305,6 +305,12 @@
 					color: white;
 				}
 			}
+
+			@media screen and (max-width: 600px) {
+				& > .questions {
+					opacity: 1;
+				}
+			}
 		}
 		& > a:nth-of-type(2) {
 			border-left: 1px white solid;
