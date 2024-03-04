@@ -150,10 +150,10 @@
 						font-family: 'Office-Medium';
 						color: var(--color3);
 						font-size: var(--type-xs);
-						line-height: 110%;
 						background-color: black;
 						z-index: 3;
 						width: max-content;
+						line-height: 110%;
 						text-transform: uppercase;
 						padding: 1px;
 						outline: var(--color3) solid 1px;
@@ -190,26 +190,37 @@
 			}
 
 			& > blockquote {
-				font-family: 'Century';
+				font-family: 'Pressura';
 				max-width: calc((100vw - 4 * var(--space-m)) / 4 * 2);
 				margin-left: calc((100vw - 4 * var(--space-m)) / 4 * 1);
-				padding-left: var(--space-m);
-				border-left: white 2px solid;
-				color: var(--color3);
+				/* padding-left: var(--space-m); */
+				/* border-left: white 2px solid; */
+
 				font-size: 120%;
-				line-height: 100%;
+				/* line-height: 100%; */
 				margin-top: 0.5em;
 				margin-bottom: 1em;
+
+				& > .quote {
+					padding: var(--space-s);
+					background-color: var(--color1);
+					color: var(--color4);
+				}
 
 				@media screen and (max-width: 600px) {
 					max-width: calc((100vw - 4 * var(--space-m)) / 4 * 4);
 					margin-left: 0;
 				}
 				& > .caption {
+					padding: var(--space-s);
+					padding-left: 0;
 					font-family: 'Office-Medium';
 					color: white;
 					font-size: var(--type-xs);
-					margin-top: var(--space-m);
+					/* margin-top: var(--space-m); */
+					line-height: 110%;
+					text-transform: uppercase;
+					text-wrap: pretty;
 				}
 			}
 		}

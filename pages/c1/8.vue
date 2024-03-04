@@ -26,62 +26,60 @@
 						and it upsets me when things are tied up so perfectly.
 					</div>
 					<div class="caption">
-						Werner Herzog interviews Harmony Korine in GUMMO'S WHAMMO—Author
-						Unknown / Interview / November 1999
+						Herzog, Werner. "GUMMO'S WHAMMO.” Interview. 1999.
 					</div>
 				</blockquote>
 				<blockquote>
 					<div class="quote">
 						Korine claims the storyline is deliberately weak. "I can't stand the
 						idea of plot. It's nothing to me. All I remember from movies - from
-						life even - are certain characters and scenes.”
+						life even - are certain characters and scenes.
 					</div>
 					<div class="caption">
-						HARMONY KORINE'S AMERICA—Ryan Deussing / Link / October 1997
+						Deussing, Ryan. "Harmony Korine’s America” Interview. 1997.
 					</div>
 				</blockquote>
 				<blockquote>
 					<div class="quote">
-						"It was a very visual approach, like the idea of a photograph," says
-						Mr. Korine. "Say I wanted to see a blind girl sitting on a toilet
+						“It was a very visual approach, like the idea of a photograph,” says
+						Mr. Korine. “Say I wanted to see a blind girl sitting on a toilet
 						seat. That was the image I would start with, then I'd go over what
 						would happen and what should happen in the scene and direct the
 						actors in that way. Most of the dialogue is improvised.”
 					</div>
 					<div class="caption">
-						HARMONY KORINE SHOWS SIGNS OF GROWING IN JULIEN DONKEY-BOY
+						Vognar, Chris. "Harmony Korine shows signs of growing in julien
+						donkey-boy” Interview. Dallas Morning News, 1999.
 					</div>
 				</blockquote>
 				<blockquote>
 					<div class="quote">
-						> **Letterman:** And what story are you telling with **Gummo**? > >
-						> **Korine:** Okay. Well, it's not really one story, because that's
-						the whole thing. I don't know care about plots. > > **Letterman:**
-						That's right, in the linear sense. It's more slices of life. > >
-						**Korine:** Well, like I think every movie there needs to be a
+						Letterman: And what story are you telling with “Gummo”?<br />
+						Korine: Okay. Well, it's not really one story, because that's the
+						whole thing. I don't know care about plots.<br />
+						Letterman: That's right, in the linear sense. It's more slices of
+						life. <br />
+						Korine: Well, like I think every movie there needs to be a
 						beginning, middle and end, but just not in that order (laughter),
 						and like when I watch movies, the only thing I really remember are
 						characters and specific scenes. So I wanted to make a film-making
-						system entirely of that, really random. > > **Letterman:** Right.
-						You would like the phone book better if it were not alphabetized,
-						right? > > **Korine:** Yes, I like the phone book. It's good
-						(laughter). >
+						system entirely of that, really random. <br />
+						Letterman: Right. You would like the phone book better if it were
+						not alphabetized, right? <br />
+						Korine: Yes, I like the phone book. It's good (laughter).
 					</div>
 					<div class="caption">
-						ON THE LATE SHOW WITH DAVID LETTERMAN—The Late Show with David
-						Letterman / October 17, 1997
+						Korine, Harmony. The Late Show with David Letterman, produced by
+						CBS, New York, October 17, 1997.
 					</div>
 				</blockquote>
 				<blockquote>
 					<div class="quote">
-						“And if you get something emotional from one scene in the film -- if
+						And if you get something emotional from one scene in the film -- if
 						there's one image you can take away from the movie after you leave -
-						then it's a success.”
+						then it's a success.
 					</div>
-					<div class="caption">
-						<!-- ON THE LATE SHOW WITH DAVID LETTERMAN—The Late Show with David
-						Letterman / October 17, 1997 -->
-					</div>
+					<div class="caption">Source Unknown.</div>
 				</blockquote>
 				<blockquote>
 					<div class="quote">
@@ -100,7 +98,9 @@
 						That's how Gummo was written.
 					</div>
 					<div class="caption">
-						Korine interview (from book p.50-51)—Antek Walczak / 1997
+						Walczak, Antek. “Harmony Korine with Antek Walczak.”, Harmony Korine
+						Interviews, Edited by Eric Kohn, University Press of Missisipi,
+						2015, pp. 50-51.
 					</div>
 				</blockquote>
 			</div>

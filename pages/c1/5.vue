@@ -63,7 +63,6 @@
 						emphasizes this by having the draftsman work on a few drawings at
 						once.
 					</div>
-					<div class="caption">Lev Manovich</div>
 				</blockquote>
 			</div>
 			<div class="refs">

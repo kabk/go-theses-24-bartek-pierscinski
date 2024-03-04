@@ -17,12 +17,6 @@
 		</header>
 		<main>
 			<div class="content">
-				<!-- <figure>
-					<img src="/content/c/1/drama.png" alt="" />
-					<figcaption>
-						From "History of the World: Part 1" (1981), Dir. Mel Brooks
-					</figcaption>
-				</figure> -->
 				<p>
 					An example even more relevant to the topic might be coming from the
 					repertoire of the director Todd Solondz. Solondz's filmmaking practice
@@ -54,6 +48,10 @@
 					of reality for entertainment, and the blurred lines between truth and
 					fiction in storytelling.
 				</p>
+				<figure>
+					<img src="/content/c/6/storytelling.png" alt="" />
+					<figcaption>From "Storytelling" (2001), Dir. Todd Solondz</figcaption>
+				</figure>
 				<p>
 					The film challenges the traditional methods of narrative building and
 					raises moral and ethical questions about the nature of storytelling in

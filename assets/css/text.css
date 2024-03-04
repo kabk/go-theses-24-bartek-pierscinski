@@ -49,6 +49,10 @@
 	font-family: 'Century';
 	src: url('/assets/Century.woff') format('woff');
 }
+@font-face {
+	font-family: 'Pressura';
+	src: url('/assets/gt-pressura-regular.woff') format('woff');
+}
 
 :root {
 	--type-xs: calc(var(--type-s) * 0.65);

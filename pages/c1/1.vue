@@ -17,24 +17,24 @@
 		<main>
 			<div class="content">
 				<p>
-					My interest in unique narratives was sparked by the work of Harmony
-					Korine. From "Kids" to "Gummo", I delved into his universe, leading me
-					to associated artists like Larry Clarke and Todd Solondz. After that,
-					I returned to studying Korine’s work and got my hands on his book “A
-					Crack-Up at the Race Riots” [1]. As the Amazon description reads: “In
-					actuality, it is a collection of hard-luck stories, off-and-on-color
-					jokes, script scraps, found letters, free rhymes, drug flashbacks, and
-					other missing scenes, all exploring the world of show business with
-					fingers prying in the cracks and feet set lightly in the black humors
-					of the real world. With chapters about books found in Monty Clift's
-					basement and Tupac Shakur's 10 favorite novels, and a set of 11
-					suicide notes with room included for the reader's signature, the book
-					is a one-of-a-kind post-postmodern examination of the dangers of
-					public life”[2]. As the author claims: it’s the next great American
-					choose-your-own-story novel. Though labeled as a novel, I found no
-					clear connection between the pages, other than certain similarity
-					regarding the nature of the writing. This uncertainty fuelled my
-					passion to understand it better.
+					My interest in unique narratives originated from the moment I got
+					acquainted with the work of Harmony Korine. From "Kids" to "Gummo", I
+					delved into his universe, leading me to associated artists like Larry
+					Clarke and Todd Solondz. After that, I returned to studying Korine’s
+					work and got my hands on his book “A Crack-Up at the Race Riots” [1].
+					As the Amazon description reads: “In actuality, it is a collection of
+					hard-luck stories, off-and-on-color jokes, script scraps, found
+					letters, free rhymes, drug flashbacks, and other missing scenes, all
+					exploring the world of show business with fingers prying in the cracks
+					and feet set lightly in the black humors of the real world. With
+					chapters about books found in Monty Clift's basement and Tupac
+					Shakur's 10 favorite novels, and a set of 11 suicide notes with room
+					included for the reader's signature, the book is a one-of-a-kind
+					post-postmodern examination of the dangers of public life”[2]. As the
+					author claims: it’s the next great American choose-your-own-story
+					novel. Though labeled as a novel, I found no clear connection between
+					the pages, other than certain similarity regarding the nature of the
+					writing. This uncertainty fuelled my passion to understand it better.
 				</p>
 				<p>
 					I felt doubtful about the decision to choose the works of Harmony
