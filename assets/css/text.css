@@ -67,7 +67,7 @@
 		--type-xs: calc(var(--type-s) * 0.65);
 		--type-s: 17px;
 		--type-m: 4.5vw;
-		--type-l: 5vw;
+		--type-l: 7.5vw;
 		--type-xl: 9vw;
 	}
 }

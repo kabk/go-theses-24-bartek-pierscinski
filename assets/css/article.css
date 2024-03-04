@@ -17,12 +17,15 @@
 		justify-content: space-between;
 		width: 100%;
 		user-select: none;
+		@media screen and (max-width: 600px) {
+			flex-direction: column-reverse;
+		}
 		& > .title {
 			color: var(--color4);
 			& > div {
 				max-width: calc((100vw - 4 * var(--space-m)) / 4 * 3);
 			}
-			margin: 0 var(--space-m);
+			margin: var(--space-m);
 			margin-bottom: 7vw;
 			text-wrap: balance;
 			width: max-content;
@@ -33,7 +36,13 @@
 			padding-left: 5px;
 			cursor: default;
 			@media screen and (max-width: 600px) {
-				max-width: 60vw;
+				width: calc(100vw - 2 * var(--space-m));
+				box-sizing: border-box;
+				font-size: var(--type-l);
+				& > div {
+					max-width: initial;
+				}
+				padding: var(--space-s);
 			}
 			& > div {
 				padding-top: 0.2em !important;
@@ -193,11 +202,7 @@
 				font-family: 'Pressura';
 				max-width: calc((100vw - 4 * var(--space-m)) / 4 * 2);
 				margin-left: calc((100vw - 4 * var(--space-m)) / 4 * 1);
-				/* padding-left: var(--space-m); */
-				/* border-left: white 2px solid; */
-
 				font-size: 120%;
-				/* line-height: 100%; */
 				margin-top: 0.5em;
 				margin-bottom: 1em;
 
@@ -217,7 +222,6 @@
 					font-family: 'Office-Medium';
 					color: white;
 					font-size: var(--type-xs);
-					/* margin-top: var(--space-m); */
 					line-height: 110%;
 					text-transform: uppercase;
 					text-wrap: pretty;

@@ -75,9 +75,12 @@
 		position: fixed;
 		right: 0;
 		@media screen and (max-width: 600px) {
+			position: static;
+			padding: var(--space-m);
 			right: 10px;
 			background-color: black;
 			z-index: 50;
+			width: 100%;
 		}
 
 		/* @media screen and (max-width: 640px) {
