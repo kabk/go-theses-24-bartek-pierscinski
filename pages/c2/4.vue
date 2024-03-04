@@ -15,11 +15,14 @@
 		<main>
 			<div class="content">
 				<p>
-					if it doesn’t make sense to you then i dont imagine that the brand
-					itself makes sense to you. Not everything is about selling. Stussy
-					makes countless marketing spots like this with no other purpose then
-					to make people laugh, go “he he i like that” and thats it. This is one
-					of the most perfect of those yet. Subtle and beautiful.
+					The “Holiday ‘23” video directed by Francis Plummer represents an
+					interesting perspective on the usage of database aesthetics,
+					fragmented narrative and character creation in a creative campaign
+					commissioned by a clothing brand. The video could be described as a
+					series of fragments of memories told by different kinds of characters,
+					all relating to their experiences with the state of California. The
+					range of characters is really diverse and they are all stylized to be
+					highly complex and idiosyncratic.
 				</p>
 				<iframe
 					src="https://player.vimeo.com/video/891906551?h=0b25ef0bff"
@@ -43,6 +46,16 @@
 					allow="autoplay; fullscreen; picture-in-picture"
 					allowfullscreen
 				></iframe>
+				<p>
+					The fragmentation and database-like structure of the video constitutes
+					a strong tool for viewer activation. This participatory approach
+					enhances the “user experience” and creates a more dynamic relationship
+					between the audience and the work. As a result the piece supplies the
+					brand with a pseudo-interactive experience, which highlights the
+					brand’s roots in the state of California and the reach and
+					appreciation the brand has built among people coming from diverse
+					social and geographical contexts.
+				</p>
 
 				<!-- <figure>
 					<img src="/content/c/1/drama.png" alt="" />

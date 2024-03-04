@@ -20,7 +20,7 @@
 					My interest in unique narratives originated from the moment I got
 					acquainted with the work of Harmony Korine. From "Kids" to "Gummo", I
 					delved into his universe, leading me to associated artists like Larry
-					Clarke and Todd Solondz. After that, I returned to studying Korine’s
+					Clark and Todd Solondz. After that, I returned to studying Korine’s
 					work and got my hands on his book “A Crack-Up at the Race Riots” [1].
 					As the Amazon description reads: “In actuality, it is a collection of
 					hard-luck stories, off-and-on-color jokes, script scraps, found
