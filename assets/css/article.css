@@ -49,14 +49,14 @@
 			}
 
 			&:hover {
-				outline: var(--color3) 1px solid;
+				outline: var(--color4) 1px solid;
 				& > .questions {
 					opacity: 1;
 				}
 			}
 
 			@media screen and (max-width: 600px) {
-				outline: var(--color3) 1px solid;
+				outline: var(--color4) 1px solid;
 				& > .questions {
 					opacity: 1 !important;
 				}
@@ -146,12 +146,12 @@
 						font-size: var(--type-xs);
 						background-color: var(--color4);
 						color: black;
-						border: var(--color3);
+						border: var(--color4);
 					}
 					&:hover {
 						background-color: var(--color4);
 						color: black;
-						outline: var(--color3) 1px solid;
+						outline: var(--color4) 1px solid;
 						&::after {
 							display: block;
 						}
@@ -165,7 +165,7 @@
 						white-space: pre-line;
 						white-space: break-spaces;
 						font-family: 'Office-Medium';
-						color: var(--color3);
+						color: var(--color4);
 						font-size: var(--type-xs);
 						line-height: 110%;
 						background-color: black;
@@ -173,7 +173,7 @@
 						width: max-content;
 						text-transform: uppercase;
 						padding: 1px;
-						outline: var(--color3) solid 1px;
+						outline: var(--color4) solid 1px;
 					}
 
 					@media screen and (max-width: 600px) {
@@ -248,15 +248,15 @@
 				line-height: 110%;
 				text-transform: uppercase;
 				& > .index {
-					border: solid 1px var(--color3);
+					border: solid 1px var(--color4);
 				}
 
 				& > .content {
 					color: var(--color4);
 					padding: 2px;
-					border-left: solid 1px white;
-					border-right: solid 1px white;
-					border-bottom: solid 1px white;
+					border-left: solid 1px var(--color4);
+					border-right: solid 1px var(--color4);
+					border-bottom: solid 1px var(--color4);
 					& > a {
 						color: var(--color2);
 						text-decoration: underline;
@@ -297,7 +297,7 @@
 				font-size: var(--type-xs);
 				font-family: 'Office-Medium';
 				text-transform: uppercase;
-				color: var(--color3);
+				color: var(--color4);
 				opacity: 0;
 				line-height: 110%;
 				max-width: 50ch;
@@ -305,10 +305,10 @@
 
 			&:hover {
 				color: black;
-				background-color: var(--color3);
+				background-color: var(--color4);
 				& > .questions {
 					opacity: 1;
-					color: white;
+					color: black;
 				}
 			}
 

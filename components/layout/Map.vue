@@ -106,10 +106,10 @@
 					font-size: var(--type-xs);
 					margin-top: var(--space-m);
 				}
-				border: var(--color3) 1px solid;
+				border: var(--color4) 1px solid;
 				&:hover {
 					border: var(--color2) 1px solid;
-					background-color: var(--color3);
+					background-color: white;
 					color: black;
 				}
 				&.router-link-active {
