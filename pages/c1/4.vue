@@ -19,19 +19,19 @@
 				<p>
 					Funnily enough, the aforementioned Manovich’s article about the
 					database-narrative approach continues with a subchapter about
-					“Database Cinema”[1]—a description of certain filmmakers’ attempts at
-					creating non-linear, interactive, implicit narratives using this
-					specific medium. It points out the obsoleteness of the modernist
-					notion of medium specificity, about how every medium should develop
-					its own unique language, and states that the contemporary cultural
-					climate demands the reevaluation of cinema as a medium prioritizing
-					narrative (through time-based sequencing as opposed to e.g.
-					photography as a medium prioritizing database—through existing mostly
-					as part of random-access mediums, such as catalogs, taxonomies, and
-					lists). Given the new dominance of the database with the introduction
-					of digital media and the internet, there comes up a possibility of
-					arriving at new narrative methods that take into account that its
-					elements are database instances.
+					“Database Cinema”<span class="super">[1]</span>—a description of
+					certain filmmakers’ attempts at creating non-linear, interactive,
+					implicit narratives using this specific medium. It points out the
+					obsoleteness of the modernist notion of medium specificity, about how
+					every medium should develop its own unique language, and states that
+					the contemporary cultural climate demands the reevaluation of cinema
+					as a medium prioritizing narrative (through time-based sequencing as
+					opposed to e.g. photography as a medium prioritizing database—through
+					existing mostly as part of random-access mediums, such as catalogs,
+					taxonomies, and lists). Given the new dominance of the database with
+					the introduction of digital media and the internet, there comes up a
+					possibility of arriving at new narrative methods that take into
+					account that its elements are database instances.
 				</p>
 				<p>
 					He cites Peter Greenaway and Dziga Vertov as two practitioners of the

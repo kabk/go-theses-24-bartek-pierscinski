@@ -36,23 +36,24 @@
 					allowfullscreen
 				></iframe>
 				<p>
-					In the legendary status YouTube video[1] Korine is being interviewed
-					by Chase Whale (or rather Chase Whale is unsuccessfully attempting to
-					interview him). Right at the beginning Korine completely ignores a
-					question about his latest movie “Thrash Humpers” and says “Well,
-					first, one second… I’m gonna draw some dots!”. He then proceeds to
-					explain and demonstrate his method for coming up with scenes and
-					writing, and calls it “basically his favorite thing to do”. He
-					proceeds on rambling that he likes to draw a bunch of dots on a
-					whiteboard, connect them in a pattern that he claims represents “a
-					brain of a fox” and next to the dots, he starts writing seemingly
-					unrelated words. After the diagram is ready, what it takes is to just
-					use the rules of grammar to start combining the words into sentences
-					that have a syntagmatic value. One can proceed to create a sentence
-					after sentence utilizing the power of this diagram and potentially end
-					up with a short story. Despite first connecting the dots in a specific
-					way there are virtually no rules and the “user” of the diagram has
-					complete freedom to take it in any direction they want.
+					In the legendary status YouTube video<span class="super">[1]</span>
+					Korine is being interviewed by Chase Whale (or rather Chase Whale is
+					unsuccessfully attempting to interview him). Right at the beginning
+					Korine completely ignores a question about his latest movie “Thrash
+					Humpers” and says “Well, first, one second… I’m gonna draw some
+					dots!”. He then proceeds to explain and demonstrate his method for
+					coming up with scenes and writing, and calls it “basically his
+					favorite thing to do”. He proceeds on rambling that he likes to draw a
+					bunch of dots on a whiteboard, connect them in a pattern that he
+					claims represents “a brain of a fox” and next to the dots, he starts
+					writing seemingly unrelated words. After the diagram is ready, what it
+					takes is to just use the rules of grammar to start combining the words
+					into sentences that have a syntagmatic value. One can proceed to
+					create a sentence after sentence utilizing the power of this diagram
+					and potentially end up with a short story. Despite first connecting
+					the dots in a specific way there are virtually no rules and the “user”
+					of the diagram has complete freedom to take it in any direction they
+					want.
 				</p>
 				<p>
 					Seeing this video after reading about Manovich’s “Database Logic”, I

@@ -35,8 +35,10 @@
 					design, the products of the advertising agencies only ascertain the
 					homogeneity and call-to-lack-of-action issued by the corporations,
 					seemingly motivated by ideas of originality and creativity. I enjoyed
-					burying myself in the text of Jason Grant and Oliver Vodeb[1], which
-					really swiftly ridicules the enterprises of those companies.
+					burying myself in the text of Jason Grant and Oliver Vodeb<span
+						class="super"
+						>[1]</span
+					>, which really swiftly ridicules the enterprises of those companies.
 				</p>
 				<figure>
 					<img src="/content/c/2/brand-scan.jpg" alt="" />

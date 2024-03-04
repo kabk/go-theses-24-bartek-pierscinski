@@ -19,9 +19,9 @@
 				<p>
 					One of the other illustrations to the database-oriented methods of
 					representation can be found in Harmony Korine’s script of the
-					never–produced movie “Jokes”[1]. The screenplay starts with a
-					disclaimer about the its nontraditional nature and announces the
-					database-like structure.
+					never–produced movie “Jokes”<span class="super">[1]</span>. The
+					screenplay starts with a disclaimer about the its nontraditional
+					nature and announces the database-like structure.
 				</p>
 				<blockquote>
 					<div class="quote">
@@ -40,11 +40,12 @@
 				<p>
 					What follows is according to the introduction—a short script, of which
 					every “chapter” begins with a joke told by the main character of the
-					following story [FIG]. The stories: tautly constructed, highly
-					imaginative and show his intuitive sense for emotion, tenderness, and
-					of course the bizarre. The result: intriguing, thought-provoking and
-					shocking journey leaving the viewer with more questions than answers.
-					As a movie should and as life always does—claims Korine.
+					following story<span class="super">[FIG]</span>. The stories: tautly
+					constructed, highly imaginative and show his intuitive sense for
+					emotion, tenderness, and of course the bizarre. The result:
+					intriguing, thought-provoking and shocking journey leaving the viewer
+					with more questions than answers. As a movie should and as life always
+					does—claims Korine.
 				</p>
 				<figure>
 					<img src="/content/c/7/jokes-scan.jpg" alt="" />

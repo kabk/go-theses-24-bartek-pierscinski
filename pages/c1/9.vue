@@ -26,23 +26,25 @@
 					that drive this text. Never once expressing his realization about him
 					repeating himself on this topic in every single interview, Korine
 					keeps bringing up his views on the scene’s superiority over the
-					plot[1]. He sometimes rationalizes this by explaining this ideology’s
-					resemblance to the ideology of life in general, but also by how
-					focusing on scenes relates to the implicit marketing pragmatics of
-					movies and how, in fact, at the end of the day only singular scenes
-					remain in a viewer’s memory after a visit to a cinema.
+					plot<span class="super">[1]</span>. He sometimes rationalizes this by
+					explaining this ideology’s resemblance to the ideology of life in
+					general, but also by how focusing on scenes relates to the implicit
+					marketing pragmatics of movies and how, in fact, at the end of the day
+					only singular scenes remain in a viewer’s memory after a visit to a
+					cinema.
 				</p>
 
 				<p>
 					I find those ideas and the emphasis on the scenes as another a spot-on
-					illustration to the “Database Cinema” theory[2]. It is important to
-					think about the scenes of a Korine script like photographs, because
-					after writing a voluminous database of those, the editing process
-					becomes the process of selecting the best and putting them into the
-					script like into a photobook. In a 2019 interview at the Gucci Hub in
-					Milan[3], Korine admits to the usage of cue cards in the process of
-					writing “Gummo”, to even stronger emphasize his prioritization of
-					scenes.
+					illustration to the “Database Cinema” theory<span class="super"
+						>[2]</span
+					>. It is important to think about the scenes of a Korine script like
+					photographs, because after writing a voluminous database of those, the
+					editing process becomes the process of selecting the best and putting
+					them into the script like into a photobook. In a 2019 interview at the
+					Gucci Hub in Milan<span class="super">[3]</span>, Korine admits to the
+					usage of cue cards in the process of writing “Gummo”, to even stronger
+					emphasize his prioritization of scenes.
 				</p>
 				<iframe
 					:width="
@@ -70,9 +72,9 @@
 				<p>
 					A striking example of the application of Korine’s scene-based approach
 					can be found in the script for his 1999 feature film “julien
-					donkey-boy”[4]. Uncovered only to those who buy the “Collected
-					Screenplays 1” book, the “instruction” to the understanding of the
-					script reads:
+					donkey-boy”<span class="super">[4]</span>. Uncovered only to those who
+					buy the “Collected Screenplays 1” book, the “instruction” to the
+					understanding of the script reads:
 				</p>
 
 				<blockquote>

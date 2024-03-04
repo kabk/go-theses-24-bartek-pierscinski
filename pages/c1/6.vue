@@ -23,11 +23,11 @@
 					is distinguished by his comprehensive authorship, assuming roles as
 					both the writer and director of his films. Notably, he employs an
 					experimental approach in shaping characters and narratives within his
-					cinematic works[1]. In one movie of his, “Palindromes” (2004), the
-					main twist is that the central character  a twelve/thirteen-year-old
-					girl  is played quite convincingly by a wide array of characters that
-					are physically very different (black/white, obese/skinny, young/old,
-					and in one incarnation even a young boy).
+					cinematic works<span class="super">[1]</span>. In one movie of his,
+					“Palindromes” (2004), the main twist is that the central character  a
+					twelve/thirteen-year-old girl  is played quite convincingly by a wide
+					array of characters that are physically very different (black/white,
+					obese/skinny, young/old, and in one incarnation even a young boy).
 				</p>
 				<p>
 					The Solondz’s movie that I would like to expand on is “Storytelling”
@@ -65,7 +65,7 @@
 					difficult questions using shocking and radical examples of stories
 					that feel “real” and provide sophisticated insight and engage the
 					spectator in a complex way with the racial, sexual and social themes
-					that overarch the narrative[2].
+					that overarch the narrative<span class="super">[2]</span>.
 				</p>
 				<p>
 					In the context of this study, Solondz's experimental narrative

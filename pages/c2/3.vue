@@ -41,8 +41,8 @@
 					rest of the same kind (in the aesthetical, formal, or conceptual
 					dimensions), I suggest an introduction of a character or characters in
 					the other meaning. According to the theory brought forward by Ira
-					Newman[1]—a character simply as a person occupying a place in a
-					narrative.
+					Newman<span class="super">[1]</span>—a character simply as a person
+					occupying a place in a narrative.
 				</p>
 
 				<p>

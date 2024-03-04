@@ -95,7 +95,6 @@
 					max-width: calc((100vw - 4 * var(--space-m)) / 4 * 4);
 					margin-left: 0;
 				}
-				cursor: none;
 				&:hover {
 					outline: var(--color2) solid 1px;
 
@@ -131,6 +130,14 @@
 					}
 				}
 
+				& > .super {
+					font-family: 'Office-Medium';
+					color: var(--color4);
+					font-size: var(--type-xs);
+					line-height: 110%;
+					vertical-align: super;
+				}
+
 				& > .word {
 					position: relative;
 					& > .note {
@@ -159,10 +166,10 @@
 						font-family: 'Office-Medium';
 						color: var(--color3);
 						font-size: var(--type-xs);
+						line-height: 110%;
 						background-color: black;
 						z-index: 3;
 						width: max-content;
-						line-height: 110%;
 						text-transform: uppercase;
 						padding: 1px;
 						outline: var(--color3) solid 1px;
@@ -240,8 +247,7 @@
 				line-height: 110%;
 				text-transform: uppercase;
 				& > .index {
-					background-color: var(--color2);
-					color: black;
+					border: solid 1px var(--color3);
 				}
 
 				& > .content {
@@ -299,7 +305,6 @@
 			&:hover {
 				color: black;
 				background-color: var(--color3);
-				cursor: none;
 				& > .questions {
 					opacity: 1;
 					color: white;

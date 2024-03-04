@@ -85,12 +85,15 @@
 					relationship present in the old media, such as novels or traditional
 					cinema—database (the paradigmatic aspect) suddenly becomes tangible,
 					concrete, while narrative (the syntagmatic aspect) is de-materialized
-					[1]. This finds a great application in Korine’s book. The database,
-					so, in this case, the contents of Korine's hyperactive mind are given
-					a material existence as printed words on paper, while the narrative
-					(which in a traditional novel would be THE explicit, tangible thing)
-					can only exist in the viewer’s imagination, becomes somehow the
-					responsibility of the viewer [2].
+					<span class="super">[1]</span>. This finds a great application in
+					Korine’s book. The database, so, in this case, the contents of
+					Korine's hyperactive mind are given a material existence as printed
+					words on paper, while the narrative (which in a traditional novel
+					would be THE explicit, tangible thing) can only exist in the viewer’s
+					imagination, becomes somehow the responsibility of the viewer<span
+						class="super"
+						>[2]</span
+					>.
 				</p>
 
 				<p>
@@ -99,11 +102,12 @@
 					already is, compared to, say, a movie). It favors the database
 					structure and allows for its reading from all kinds of different
 					directions and sequences. It is truly more of a sort of an
-					encyclopedia than it is a novel [3]. There is no indexing or lineage
-					other than the sequence of the pages and the arrangement of the book
-					into two chapters. In Manovich’s words: there is no algorithm, no
-					explicit, direct interface that allows for structured navigation of
-					the database to the viewer. The viewer is welcome to create their own.
+					encyclopedia than it is a novel<span class="super">[3]</span>. There
+					is no indexing or lineage other than the sequence of the pages and the
+					arrangement of the book into two chapters. In Manovich’s words: there
+					is no algorithm, no explicit, direct interface that allows for
+					structured navigation of the database to the viewer. The viewer is
+					welcome to create their own.
 				</p>
 			</div>
 			<div class="refs">

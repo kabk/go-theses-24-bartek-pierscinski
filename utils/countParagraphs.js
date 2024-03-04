@@ -4,7 +4,7 @@ export default function (paragraphs, currentRoute) {
 	const subchapter = parts[parts.length - 1]
 	if (paragraphs) {
 		paragraphs.forEach((p, i) => {
-			countWords(p, i, chapter, subchapter)
+			// countWords(p, i, chapter, subchapter)
 			const length = Math.floor(p.childElementCount)
 			const cont = truncateString(p.textContent, 25)
 
