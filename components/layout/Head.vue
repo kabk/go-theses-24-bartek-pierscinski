@@ -1,7 +1,7 @@
 <template>
 	<header>
 		<section class="header-title univers -type-l">
-			Database aesthetics: into fragmented narratives and post-brandinng
+			Database aesthetics: into fragmented narratives and post-branding
 		</section>
 	</header>
 </template>
