@@ -81,6 +81,7 @@
 			background-color: black;
 			z-index: 50;
 			width: 100%;
+			max-height: initial;
 		}
 
 		/* @media screen and (max-width: 640px) {
