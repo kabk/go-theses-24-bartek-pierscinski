@@ -18,5 +18,9 @@
 		color: var(--color4);
 		user-select: none;
 		text-wrap: balance;
+		@media screen and (max-width: 600px) {
+			padding: var(--space-m);
+			max-width: calc(100vw - 2 * var(--space-m));
+		}
 	}
 </style>
