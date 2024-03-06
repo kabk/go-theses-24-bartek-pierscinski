@@ -125,6 +125,15 @@
 						}
 					}
 				}
+
+				@media screen and (max-width: 640px) {
+					& > .index {
+						& > .question {
+							color: var(--color4);
+							opacity: 1;
+						}
+					}
+				}
 			}
 
 			& > .fig {
